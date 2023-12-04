@@ -1,7 +1,20 @@
 # UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction
 
+## Packages required
 
+## Data 
 
+## Scripts
+
+## Model
+
+## Procedure 
+
+## Related projects 
+
+Link: [https://sustain.stanford.edu/predicting-poverty]
+
+## Contact
 
 ## References
 
