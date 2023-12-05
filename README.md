@@ -5,13 +5,25 @@ The project is specifically centered around the theme "**Application of Deep Lea
 
 Case Study: **"Consumption Expenditure Prediction in Malawi."**
 
-Using such an approach demands a substantial grasp of machine learning and Deep Learning concepts, coupled with a considerable investment of time in data preparation and model training. To streamline this complex process, we documented each step, adopting the contemporary methodology established by researchers at [Stanford University.]( https://sustain.stanford.edu/predicting-poverty)
+Using such an approach demands a substantial grasp of machine learning and Deep Learning concepts, coupled with a considerable investment of time in data preparation and model training. 
+
+To streamline this complex process, we documented each step, explaining each line of code, adopting the contemporary methodology established by researchers at [Stanford University.]( https://sustain.stanford.edu/predicting-poverty)
 
 Our overarching goal is to create a reproducible framework utilizing open-source tools and resources. This framework is designed to empower National Statistics Offices (NSOs) across Africa, providing them with the means to implement similar methodologies.
 
-The documentation includes important stages such as **survey data collection**, **nightlight satellite imagery acquisition**, **daytime satellite imagery acquisition**, **data processing**, **data cleaning**, and **visualization**, as well as the **preparation of training and validation datasets**. Furthermore, the guide delves into intricate aspects including training **Convolutional Neural Network (CNN) models**, **feature extraction**, and the **prediction phase**, all meticulously explained line by line. 
+The documentation includes important stages such as:
+- **survey data collection, processing and visualization**,
+- **nightlight satellite imagery acquisition, processing, visualization**,
+- **daytime satellite imagery acquisition and processing**,
+- **preparation of training and validation datasets**,
+- **train Convolutional Neural Network (CNN) models and their variants**,
+- **feature extraction**,
+- **prediction**, 
 
-The implementation is facilitated through the **Python programming language** and the **PyTorch framework**. 
+The implementation is facilitated through the 
+- **Python programming language**,
+- **Google Earth Engine**,
+- **PyTorch framework**. 
 
 This endeavor aims not only to advance our understanding of the subject matter but also to foster knowledge-sharing and collaboration within the data science community.
 
