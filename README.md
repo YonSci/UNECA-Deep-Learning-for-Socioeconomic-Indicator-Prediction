@@ -9,6 +9,8 @@ Our overarching goal is to create a reproducible framework utilizing open-source
 
 The comprehensive documentation encompasses pivotal stages such as survey data collection, Nightlight satellite imagery acquisition, Daytime satellite imagery utilization, data processing, data cleaning, and visualization, as well as the preparation of training and validation datasets. Furthermore, the guide delves into intricate aspects including training Convolutional Neural Network (CNN) models, feature extraction, and the prediction phase, all meticulously explained line by line. The implementation is facilitated through the Python programming language and the PyTorch framework. This endeavor aims not only to advance our understanding of the subject matter but also to foster knowledge-sharing and collaboration within the data science community.
 
+---
+
 ## Packages required
 
 ## Data 
