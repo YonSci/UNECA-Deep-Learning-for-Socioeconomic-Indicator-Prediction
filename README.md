@@ -1,9 +1,9 @@
 # UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction
 
 The primary aim of this project is to integrate **survey data** and **high-resolution satellite imagery**, leveraging **machine learning/Deep Learning** methodologies to forecast **socioeconomic indicators**. 
-The project is specifically centered around the theme "**Application of Deep Learning to Predict Socioeconomic Indicators using Survey Data and High-resolution Satellite Imagery.** 
+The project is specifically centered around the theme "**Application of Deep Learning to Predict Socioeconomic Indicators using Survey Data and High-resolution Satellite Imagery."** 
 
-Case Study: **Consumption Expenditure Prediction in Malawi."**
+Case Study: **"Consumption Expenditure Prediction in Malawi."**
 
 Using such an approach demands a substantial grasp of machine learning and Deep Learning concepts, coupled with a considerable investment of time in data preparation and model training. To streamline this complex process, we documented each step, adopting the contemporary methodology established by researchers at [Stanford University.]( https://sustain.stanford.edu/predicting-poverty)
 
