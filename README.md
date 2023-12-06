@@ -12,18 +12,18 @@ To streamline this complex process, we documented each step, explaining each lin
 Our overarching goal is to create a reproducible framework utilizing open-source tools and resources. This framework is designed to empower National Statistics Offices (NSOs) across Africa, providing them with the means to implement similar methodologies.
 
 The documentation includes important stages such as:
-- **survey data collection, processing and visualization**,
-- **nightlight satellite imagery acquisition, processing, visualization**,
-- **daytime satellite imagery acquisition and processing**,
-- **preparation of training and validation datasets**,
-- **train Convolutional Neural Network (CNN) models and their variants**,
-- **feature extraction**,
-- **prediction**, 
+- **Survey data collection, and processing**
+- **Nightlight satellite imagery acquisition, and processing**
+- **Daytime satellite imagery acquisition and processing**
+- **Preparation of training and validation datasets**
+- **Train Convolutional Neural Network (CNN) models and their variants**
+- **Feature extraction**
+- **Prediction model**
 
 The implementation is facilitated through the 
-- **Python programming language**,
-- **Google Earth Engine**,
-- **PyTorch framework**. 
+- **Python programming language**
+- **Google Earth Engine**
+- **PyTorch framework**
 
 This endeavor aims not only to advance our understanding of the subject matter but also to foster knowledge-sharing and collaboration within the data science community.
 
@@ -72,6 +72,7 @@ Special thanks to Jatin Mathur for sharing the create_space() function and other
 
 ## References
 
+National Statistical Office. Malawi - Fourth Integrated Household Survey 2016-2017, Ref. MWI_2016_IHS-IV_v02_M. Dataset downloaded from World Bank Microdata Library: [https://microdata.worldbank.org/index.php/catalog/2936/related-materials].
 Jatin Mathur, Predicting Poverty Replication, GitHub: [https://github.com/jmather625/predicting-poverty-replication]
 
 Neal Jean, Marshall Burke, MIchael Xie, W. Matt Davis, David Lobell, and Stefano Ermon. 2016. "Combining satellite imagery and machine learning to predict poverty." Science 353, 6301. Combining satellite imagery and machine learning to predict poverty. GitHub: [https://github.com/nealjean/predicting-poverty]
