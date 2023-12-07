@@ -64,6 +64,10 @@ https://news.stanford.edu/2016/02/24/satellite-map-poverty-022416/
 
 ## Contact
 
+Yonas Mersha, Data Science Consultant | African Centre for Statistics (ACS) |  United Nations Economic Commission for Africa (UNECA)
+ 
+Issoufou Seidou Sanda, Principal Statistician | African Centre for Statistics (ACS) |  United Nations Economic Commission for Africa (UNECA)
+ 
 ## Acknowledgments 
 
 **RCTP project** 
