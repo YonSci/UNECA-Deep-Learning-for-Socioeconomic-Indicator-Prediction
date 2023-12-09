@@ -14,6 +14,7 @@ Our overarching goal is to create a reproducible framework utilizing open-source
 The documentation includes important stages such as:
 - **Survey data collection, and processing**
 - **Nightlight satellite imagery acquisition, and processing**
+- **Sampling method to generate download locations and undersampling to avoid bias**
 - **Daytime satellite imagery acquisition and processing**
 - **Preparation of training and validation datasets**
 - **Train Convolutional Neural Network (CNN) models and their variants**
@@ -72,7 +73,7 @@ https://news.stanford.edu/2016/02/24/satellite-map-poverty-022416/
 
 **RCTP project** 
 
-Special thanks to Jatin Mathur for sharing the create_space() function and other code snippets on GitHub. We have integrated certain code snippets, tailoring them to suit the specific requirements of our project.
+Special thanks to Jatin Mathur for sharing the create_space, add_nightlights, generate_download_locations, drop_zeros functions, and other code snippets on GitHub. We have integrated certain code snippets, tailoring them to suit the specific requirements of our project.
 
 ## References
 
@@ -93,6 +94,7 @@ C.D. Elvidge, K. Baugh, M. Zhizhin, F. C. Hsu, and T. Ghosh, “VIIRS night-time
 ### Related Works 
 
 Jatin Mathur, Predicting Poverty Replication, GitHub: [https://github.com/jmather625/predicting-poverty-replication]  
+
 
 Neal Jean, Marshall Burke, Michael Xie, W. Matt Davis, David Lobell, and Stefano Ermon. 2016. "Combining satellite imagery and machine learning to predict poverty." Science 353, 6301. Combining satellite imagery and machine learning to predict poverty. GitHub: [https://github.com/nealjean/predicting-poverty]
 
