@@ -32,13 +32,27 @@ This endeavor aims not only to advance our understanding of the subject matter b
 
 ## Packages required
 
+
+
 ## Data 
 
+The Data folder contains: 
+
+
 ## Scripts
+
+The Script folder contains: 
+
+1) Survey_Data_Preprocessing_Malawi_2016.ipynb
+2) Processing_Nighttime_Satellite_Imagery.ipynb
+3) Generate_Image_Download_Locations.ipynb
+4) GEE_Nightlight_2016_2017.js
 
 ## Model
 
 ## Procedure 
+
+
 
 ## Related projects 
 
