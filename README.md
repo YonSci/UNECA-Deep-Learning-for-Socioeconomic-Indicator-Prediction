@@ -101,9 +101,7 @@ https://news.stanford.edu/2016/02/24/satellite-map-poverty-022416/
  
 ## Acknowledgments 
 
-**RCTP project** 
-
-This research project  has been supported by RCTP project. 
+This research project  has been supported by **RCTP project**. 
 
 Special thanks to Jatin Mathur for sharing the create_space, add_nightlights, generate_download_locations, drop_zeros functions, and other code snippets on GitHub. We have integrated certain code snippets, tailoring them to suit the specific requirements of our project.
 
