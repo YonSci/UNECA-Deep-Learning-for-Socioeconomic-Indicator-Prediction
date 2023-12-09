@@ -15,7 +15,7 @@ The documentation includes important stages such as:
 1) **Survey data collection, and processing**
 2) **Nightlight satellite imagery acquisition, and processing**
 3) **Sampling method to generate download locations and undersampling to avoid bias**
-4) **Predicted labels for the nightlight values**
+4) **Label the nightlight values**
 5) **Daytime satellite imagery acquisition and processing**
 6) **Preparation of training and validation datasets**
 7) **Train Convolutional Neural Network (CNN) models and their variants**
