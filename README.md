@@ -32,7 +32,20 @@ This endeavor aims not only to advance our understanding of the subject matter b
 
 ## Packages required
 
-
+**Python Packages**:
+- sys
+- os
+- Numpy
+- Pandas
+- Matplotlib
+- Seaborn
+- Plotly
+- Math
+- Random
+- Geoio
+- IPython
+- Rasterio
+- Utils 
 
 ## Data 
 
@@ -41,7 +54,7 @@ The Data folder contains:
 
 ## Scripts
 
-The Script folder contains: 
+The Script folder contains the following file: 
 
 1) Survey_Data_Preprocessing_Malawi_2016.ipynb
 2) Processing_Nighttime_Satellite_Imagery.ipynb
