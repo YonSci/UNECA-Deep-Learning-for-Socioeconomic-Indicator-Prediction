@@ -121,7 +121,7 @@ C.D. Elvidge, K. Baugh, M. Zhizhin, F. C. Hsu, and T. Ghosh, “VIIRS night-time
 ### Planet Satellite Imagery 
 
 
-### Related Works 
+## Related Works 
 
 Jatin Mathur, Predicting Poverty Replication, GitHub: [https://github.com/jmather625/predicting-poverty-replication]  
 
