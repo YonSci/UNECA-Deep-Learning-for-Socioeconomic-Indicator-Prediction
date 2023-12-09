@@ -12,14 +12,14 @@ To streamline this complex process, we documented each step, explaining each lin
 Our overarching goal is to create a reproducible framework utilizing open-source tools and resources. This framework is designed to empower National Statistics Offices (NSOs) across Africa, providing them with the means to implement similar methodologies.
 
 The documentation includes important stages such as:
-- **Survey data collection, and processing**
-- **Nightlight satellite imagery acquisition, and processing**
-- **Sampling method to generate download locations and undersampling to avoid bias**
-- **Daytime satellite imagery acquisition and processing**
-- **Preparation of training and validation datasets**
-- **Train Convolutional Neural Network (CNN) models and their variants**
-- **Feature extraction**
-- **Prediction model**
+1) **Survey data collection, and processing**
+2) **Nightlight satellite imagery acquisition, and processing**
+3) **Sampling method to generate download locations and undersampling to avoid bias**
+4) **Daytime satellite imagery acquisition and processing**
+5) **Preparation of training and validation datasets**
+6) **Train Convolutional Neural Network (CNN) models and their variants**
+7) **Feature extraction**
+8) **Prediction model**
 
 The implementation is facilitated through the 
 - **Python programming language**
