@@ -58,7 +58,8 @@ The Script folder contains the following file:
 2) Processing_Nighttime_Satellite_Imagery.ipynb
 3) Generate_Image_Download_Locations.ipynb
 4) Nightlights_bins.ipynb
-5) GEE_Nightlight_2016_2017.js
+5) Download_satellite_images_Planet.ipynb
+6) GEE_Nightlight_2016_2017.js
 
 ## Data 
 
