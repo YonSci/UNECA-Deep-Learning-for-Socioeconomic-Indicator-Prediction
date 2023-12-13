@@ -123,6 +123,7 @@ C.D. Elvidge, K. Baugh, M. Zhizhin, F. C. Hsu, and T. Ghosh, “VIIRS night-time
 
 ### Planet Satellite Imagery 
 
+Planet Labs PBC. (2023). Planet Application Program Interface: In Space for Life on Earth. Retrieved from [https://api.planet.com]
 
 ## Related Works 
 
