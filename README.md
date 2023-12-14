@@ -46,7 +46,11 @@ This endeavor aims not only to advance our understanding of the subject matter b
 - Geoio
 - IPython
 - Rasterio
-- Utils 
+- Utils
+- torch
+- torchvision
+- time
+- copy
 
 ## Procedure 
 
