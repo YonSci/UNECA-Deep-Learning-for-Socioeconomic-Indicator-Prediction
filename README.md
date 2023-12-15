@@ -1,5 +1,7 @@
 # UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction
 
+ ![Alt text](image link)   
+
 The primary aim of this project is to integrate **survey data** and **high-resolution satellite imagery**, leveraging **machine learning/Deep Learning** methodologies to forecast **socioeconomic indicators**. 
 The project is specifically centered around the theme "**Application of Deep Learning to Predict Socioeconomic Indicators using Survey Data and High-resolution Satellite Imagery."** 
 
