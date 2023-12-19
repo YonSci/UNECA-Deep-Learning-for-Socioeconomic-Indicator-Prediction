@@ -105,6 +105,14 @@ The trained models can be found in this Google Drive directory:
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/Planet_imag.png)   
 
+
+## Label Planet Images 
+
+ ![Alt text]()   
+ ![Alt text]()   
+ ![Alt text]()   
+ 
+
 ## Related projects 
 
 Link: [https://sustain.stanford.edu/predicting-poverty]
