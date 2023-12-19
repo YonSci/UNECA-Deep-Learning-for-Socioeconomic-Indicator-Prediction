@@ -110,7 +110,7 @@ The trained models can be found in this Google Drive directory:
 
  ![Alt text]( https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/Planet_imag1.png)   
 
-## Labeled Imagery
+## Sample Labeled Imagery
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/Low_nighttime.png)   
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/Medium_nighttime.png)   
