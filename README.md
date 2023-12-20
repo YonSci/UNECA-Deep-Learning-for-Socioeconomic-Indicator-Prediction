@@ -120,7 +120,7 @@ The trained models can be found in this Google Drive directory:
 
 ## Training and validation datasets
 
- ![Alt text]()   
+ ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/train_valid.png)   
 
 ## Sample Labeled Imagery
 
