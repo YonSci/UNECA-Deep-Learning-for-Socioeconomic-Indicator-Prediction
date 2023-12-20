@@ -1,4 +1,4 @@
-# ML/Deep-Learning-for-Socioeconomic-Indicator-Prediction
+# ML/Deep Learning for Socioeconomic Indicator Prediction
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/intro_im.png)   
 
