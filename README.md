@@ -129,12 +129,6 @@ The trained models can be found in this Google Drive directory:
 
 On the [issues](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/issues) page, the primary bugs in the code are documented along with their solutions. Additionally, you can create new issues if you encounter any new bugs.
 
-## Related projects 
-
-Link: [https://sustain.stanford.edu/predicting-poverty]
-
-Link: [https://www.science.org/content/article/satellite-images-can-map-poverty]
-
 ## Contact
 
 **Yonas Mersha**, Data Science Consultant | African Centre for Statistics (ACS) |  United Nations Economic Commission for Africa (UNECA)
@@ -171,3 +165,8 @@ Jatin Mathur, Predicting Poverty Replication, GitHub: [https://github.com/jmathe
 
 Neal Jean, Marshall Burke, Michael Xie, W. Matt Davis, David Lobell, and Stefano Ermon. 2016. "Combining satellite imagery and machine learning to predict poverty." Science 353, 6301. Combining satellite imagery and machine learning to predict poverty. GitHub: [https://github.com/nealjean/predicting-poverty]
 
+## Related projects 
+
+Link: [https://sustain.stanford.edu/predicting-poverty]
+
+Link: [https://www.science.org/content/article/satellite-images-can-map-poverty]
