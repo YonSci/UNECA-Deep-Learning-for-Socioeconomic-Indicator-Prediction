@@ -122,6 +122,11 @@ The trained models can be found in this Google Drive directory:
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/Medium_nighttime.png)   
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/High_nighttime.png)
 
+
+## Issues
+
+On the issues page, the primary bugs in the code are documented along with their solutions. Additionally, you can create new issues if you encounter any new bugs.
+
 ## Related projects 
 
 Link: [https://sustain.stanford.edu/predicting-poverty]
