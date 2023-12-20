@@ -127,7 +127,7 @@ The trained models can be found in this Google Drive directory:
 
 ## Issues
 
-On the issues page, the primary bugs in the code are documented along with their solutions. Additionally, you can create new issues if you encounter any new bugs.
+On the [issues](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/issues) page, the primary bugs in the code are documented along with their solutions. Additionally, you can create new issues if you encounter any new bugs.
 
 ## Related projects 
 
