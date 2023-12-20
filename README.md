@@ -35,24 +35,27 @@ This endeavor aims not only to advance our understanding of the subject matter b
 
 ## Packages required
 
-**Python Packages**:
-- sys
-- os
-- Numpy
-- Pandas
-- Matplotlib
-- Seaborn
-- Plotly
-- Math
-- Random
-- Geoio
-- IPython
-- Rasterio
-- Utils
-- torch
-- torchvision
-- time
-- copy
+**Python Packages**
+
+| Library      | Description                                |
+|--------------|--------------------------------------------|
+| sys          | System-specific parameters and functions   |
+| os           | Operating system interfaces                |
+| Numpy        | Numerical operations and arrays            |
+| Pandas       | Data manipulation and analysis             |
+| Matplotlib   | Plotting library                           |
+| Seaborn      | Statistical data visualization             |
+| Plotly       | Interactive plots and dashboards           |
+| Math         | Mathematical functions                     |
+| Random       | Random number generation                   |
+| Geoio        | Geospatial data I/O and processing         |
+| IPython      | Interactive computing in Python            |
+| Rasterio     | Geospatial raster data I/O and processing  |
+| Utils        | Utility functions and tools                |
+| torch        | PyTorch deep learning library              |
+| torchvision  | PyTorch computer vision library            |
+| time         | Time-related functions                     |
+| copy         | Shallow and deep copy operations           |
 
 ## Procedure 
 
