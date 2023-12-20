@@ -20,9 +20,9 @@ The documentation includes important stages such as:
 4) **Create nightlight bins/labels**
 5) **Daytime satellite imagery acquisition and processing**
 6) **Preparation of training and validation datasets**
-7) **Train Convolutional Neural Network (CNN) models and their variants**
-8) **Feature extraction**
-9) **Prediction model**
+7) **Train Convolutional Neural Network (CNN) models and their variants (VGG) using a transfer learning approach**
+8) **Feature extraction and aggregation**
+9) **Building prediction model**
 
 The implementation is facilitated through the 
 - **Python programming language**
