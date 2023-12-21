@@ -46,9 +46,11 @@ The Script folder contains the following files:
 5) Nightlights_bins.ipynb
 6) Download_satellite_images_Planet.ipynb
 7) Prepare_training_validation_datasets.ipynb
-8) Train_VGG11_model_145.ipynb
-9) Feature_extraction_aggregation.ipynb
-10) Predict_consumption_ridge_regression_model.ipynb
+8) Image_labeling.ipynb
+9) Train_VGG11_model_145.ipynb
+10) Feature_extraction_aggregation.ipynb
+11) Predict_consumption_ridge_regression_model.ipynb
+12) Visualize_feature_maps.ipynb
 
 ## Processed output 
 
