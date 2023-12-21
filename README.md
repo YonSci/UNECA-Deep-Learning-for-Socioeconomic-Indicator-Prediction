@@ -114,11 +114,11 @@ The trained models can be found in this Google Drive directory:
 
 ## Feature maps (Activation map)
 
- ![Alt text]()  
+ ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/fm_low.png)  
 
- ![Alt text]()  
+ ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/fm_medium.png)  
 
- ![Alt text]()  
+ ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/fm_high.png)  
 
 ## Cross-validated mean R-squared 
 
