@@ -32,32 +32,8 @@ The implementation is facilitated through the
 This endeavor aims not only to advance our understanding of the subject matter but also to foster knowledge-sharing and collaboration within the data science community.
 
 ---
-
-## Packages required
-
-**Python Packages**
-
-| Library      | Description                                |
-|--------------|--------------------------------------------|
-| sys          | System-specific parameters and functions   |
-| os           | Operating system interfaces                |
-| Numpy        | Numerical operations and arrays            |
-| Pandas       | Data manipulation and analysis             |
-| Matplotlib   | Plotting library                           |
-| Seaborn      | Statistical data visualization             |
-| Plotly       | Interactive plots and dashboards           |
-| Math         | Mathematical functions                     |
-| Random       | Random number generation                   |
-| Geoio        | Geospatial data I/O and processing         |
-| IPython      | Interactive computing in Python            |
-| Rasterio     | Geospatial raster data I/O and processing  |
-| Utils        | Utility functions and tools                |
-| torch        | PyTorch deep learning library              |
-| torchvision  | PyTorch computer vision library            |
-| time         | Time-related functions                     |
-| copy         | Shallow and deep copy operations           |
-
 ## Procedure 
+
 
 ## Scripts
 
@@ -158,6 +134,30 @@ The trained models can be found in this Google Drive directory:
 ## Issues
 
 On the [issues](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/issues) page, the primary bugs in the code are documented along with their solutions. Additionally, you can create new issues if you encounter any new bugs.
+
+## Packages required
+
+**Python Packages**
+
+| Library      | Description                                |
+|--------------|--------------------------------------------|
+| sys          | System-specific parameters and functions   |
+| os           | Operating system interfaces                |
+| Numpy        | Numerical operations and arrays            |
+| Pandas       | Data manipulation and analysis             |
+| Matplotlib   | Plotting library                           |
+| Seaborn      | Statistical data visualization             |
+| Plotly       | Interactive plots and dashboards           |
+| Math         | Mathematical functions                     |
+| Random       | Random number generation                   |
+| Geoio        | Geospatial data I/O and processing         |
+| IPython      | Interactive computing in Python            |
+| Rasterio     | Geospatial raster data I/O and processing  |
+| Utils        | Utility functions and tools                |
+| torch        | PyTorch deep learning library              |
+| torchvision  | PyTorch computer vision library            |
+| time         | Time-related functions                     |
+| copy         | Shallow and deep copy operations           |
 
 ## Contact
 
