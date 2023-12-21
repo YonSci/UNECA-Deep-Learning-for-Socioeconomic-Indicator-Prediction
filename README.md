@@ -37,7 +37,7 @@ This endeavor aims not only to advance our understanding of the subject matter b
 
 ## Scripts
 
-The Script folder contains the following file: 
+The Script folder contains the following files: 
 
 1) Survey_Data_Preprocessing_Malawi_2016.ipynb
 2) GEE_Nightlight_2016_2017.js
