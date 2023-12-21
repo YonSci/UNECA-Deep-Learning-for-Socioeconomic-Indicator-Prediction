@@ -22,7 +22,7 @@ The documentation includes important stages such as:
 6) **Preparation of training and validation datasets**
 7) **Train Convolutional Neural Network (CNN) models and their variants (VGG) using a transfer learning approach**
 8) **Feature extraction and aggregation**
-9) **Building prediction model**
+9) **Building prediction model: Ridge regression model**
 
 The implementation is facilitated through the 
 - **Python programming language**
