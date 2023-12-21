@@ -139,6 +139,14 @@ The trained models can be found in this Google Drive directory:
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/cv_r2.png)   
 
+## Other Metrics  
+
+| Metric                        | Predicted consumption (without transformation) |  Predicted consumption (with log transformation) |
+|-------------------------------|---------|---------|
+| Mean Absolute Error (MAE)     | 0.81    | 0.72    |
+| Root Mean Squared Error (RMSE)| 3.08    | 3.1     |
+
+
 ## Predicted consumption (without transformation)
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/predicted_con_direct.png)   
