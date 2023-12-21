@@ -105,12 +105,20 @@ The trained models can be found in this Google Drive directory:
 
 ## Training and validation datasets
 
- ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/train_valid.png)   
+ ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/train_valid.png)  
+
 
 ## Sample Labeled Imagery
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/label_low_mid_hight.png)   
 
+## Feature maps (Activation map)
+
+ ![Alt text]()  
+
+ ![Alt text]()  
+
+ ![Alt text]()  
 
 ## Cross-validated mean R-squared 
 
