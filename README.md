@@ -72,7 +72,7 @@ The [model output](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconom
   ### Aggregated extracted feature vectors: 
     - used as input to predict consumption at a cluster level.
   ### Cluster order: 
-  - the order of the clusters during the feature extraction.
+    - the order of the clusters during the feature extraction.
 
 ## Models
 
