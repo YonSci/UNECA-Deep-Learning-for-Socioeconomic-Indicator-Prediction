@@ -137,10 +137,15 @@ The trained models can be found in this Google Drive directory:
 
 ## Cross-validated mean R-squared 
 
+ ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/cv_r2.png)   
 
 ## Predicted consumption (without transformation)
 
+ ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/predicted_con_direct.png)   
+ 
 ## Predicted consumption (with log transformation)
+
+ ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/predicted_con_log.png)   
 
 ## Issues
 
