@@ -1,4 +1,4 @@
-# ML/Deep Learning for Socioeconomic Indicator Prediction
+# Exploring ML/Deep Learning Techniques for Socioeconomic Indicator Forecasting: A Fusion of Satellite Images and Survey Data
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/intro_im.png)   
 
