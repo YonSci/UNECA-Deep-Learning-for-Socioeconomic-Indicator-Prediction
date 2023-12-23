@@ -64,7 +64,7 @@ In this project, a Ridge Regression model is employed to forecast consumption le
 
 ## Implementation framework and environment 🖥️ 
 
-we employed Google Colab Pro+ featuring high-performance GPUs—specifically A100 and V100—each boasting 51.0GB of RAM. The Python environment was used for developing scripts that executed the majority of the project's essential steps mentioned above. The PyTorch framework is used to implement deep learning and transfer learning. Additionally, a Javascript code was utilized for downloading nighttime satellite imagery.
+We used Google Colab Pro+ for computing with high-performance GPUs—specifically A100 and V100—each boasting 51.0GB of RAM. The Python environment was used for developing scripts that executed the majority of the project's essential steps mentioned above. The PyTorch framework is used to implement deep learning and transfer learning. Additionally, a Javascript code was utilized for downloading nighttime satellite imagery.
 
 ## Scripts 📜
 
