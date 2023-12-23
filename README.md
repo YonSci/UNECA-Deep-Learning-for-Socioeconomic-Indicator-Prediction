@@ -112,7 +112,7 @@ The trained models can be found in this Google Drive directory:
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/label_low_mid_hight.png)   
 
-## Feature Maps (Activation Maps)
+## Visualizing Feature Maps (Activation Maps)  
 
 ### Sample feature maps from low nightlight bin
 
