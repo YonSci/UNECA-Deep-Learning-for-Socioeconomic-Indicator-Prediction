@@ -2,38 +2,69 @@
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/intro_im.png)   
 
-The primary aim of this project is to integrate **survey data** and **high-resolution satellite imagery**, leveraging **machine learning/Deep Learning** methodologies to forecast **socioeconomic indicators**. 
-The project is specifically centered around the theme "**Application of Deep Learning to Predict Socioeconomic Indicators using Survey Data and High-resolution Satellite Imagery."** 
+## Problem :)
 
-Case Study: **"Consumption Expenditure Prediction in Malawi."**
+The absence of reliable and continuous socioeconomic data in developing nations poses a significant challenge to the monitoring and assessment of sustainable development goals and the formulation of well-informed policy decisions. Despite being crucial for governmental and non-governmental organizations, the acquisition of frequent and reliable national-level statistics through surveys is both costly and labor-intensive.
 
-Using such an approach demands a substantial grasp of machine learning and Deep Learning concepts, coupled with a considerable investment of time in data preparation and model training. 
+## Solution 
 
-To streamline this complex process, we documented each step, explaining each line of code, adopting the contemporary methodology established by researchers at [Stanford University.]( https://sustain.stanford.edu/predicting-poverty)
+In response to this challenge, we present a cost-effective, accurate, and scalable method for predicting socioeconomic indicators. In this project, a novel machine learning/deep learning approach is implemented to predict socioeconomic indicators from survey data, and publicly available nighttime and high-resolution daytine satellite imagery. The methodology was originally established by researchers at [Stanford University.]( https://sustain.stanford.edu/predicting-poverty) and is currently being adopted by several institutions around the world. We demonstrated a reproducible approach that provided a step-by-step guideline for data collection, preprocessing, and code implementation. Furthermore, in this approach, we address challenges related to nighttime satellite imagery retrieval by deploying GEE Javascript and resolving the time mismatches with survey data. Additionally, we tackle issues linked to Planet satellite imagery by updating the Planet downloader scripts to accommodate changes in the Planet DATA API parameters, ensuring accurate data retrieval. Furthermore, the implementation of advanced deep-learning models allows us to assess the performance of alternative models, enhancing the robustness of the methodology.
 
-Our overarching goal is to create a reproducible framework utilizing open-source tools and resources. This framework is designed to empower National Statistics Offices (NSOs) across Africa, providing them with the means to implement similar methodologies.
+## Objective 
 
-The documentation includes important stages such as:
-1) **Survey data collection, and processing**
-2) **Nightlight satellite imagery acquisition, and processing**
-3) **Sampling method to generate download locations and undersampling to avoid bias**
-4) **Create nightlight bins/labels**
-5) **Daytime satellite imagery acquisition and processing**
-6) **Preparation of training and validation datasets**
-7) **Train Convolutional Neural Network (CNN) models and their variants (VGG) using a transfer learning approach**
-8) **Feature extraction and aggregation**
-9) **Building prediction model: Ridge regression model**
+The primary aim of this project is to integrate **survey data**,  **nighttime satellite imagery**, and  **high-resolution satellite imagery**, leveraging **machine learning/deep Learning** methodologies to forecast **socioeconomic indicators** using  a reproducible framework utilizing open-source tools and resources. 
 
-The implementation is facilitated through the 
-- **Python programming language**
-- **Google Earth Engine**
-- **PyTorch framework**
+## Application
+This methodology holds broad applicability, extending beyond consumption expenditure prediction, it can be applied to wealth, poverty, income, and population prediction. It facilitates predictions during "off-years" when surveys are not conducted. It also enables near real-time monitoring serving as an early-warning system. This kind of approach is scalable, the trained model, from one location, can be applied to new regions with similar characteristics. The proposed method contributes to the production of frequent and continuous statistical reports on socioeconomic indicators, complementing existing methods. 
 
-This endeavor aims not only to advance our understanding of the subject matter but also to foster knowledge-sharing and collaboration within the data science community.
-
----
 ## Procedure 
 
+The implementation of this approach includes important steps such as:
+
+### 1)  Survey data collection, and processing
+
+The project used publicly available survey data from the World Bank Living Standards Measurement Study (LSMS) Microdata Library, Fourth Integrated Household Survey (IHS4), gathered through the National Statistical Office (NSO) of Malawi, during the period spanning from April 2016 to April 2017. The survey data was prepared by performing tasks such as data cleaning, grouping, standardizing consumption values, and calculating daily per capita consumption. A summary statistical analysis was conducted, and a map illustrating the per capita consumption across the surveyed areas in Malawi was generated.
+
+
+### 2) Nightlight satellite imagery acquisition, and processing
+
+The project also utilized nighttime satellite imagery sourced from the NOAA National Center for Environmental Information and downloaded from the Earth Engine Data Catalog by using the Google Earth Engine (GEE) Javascript code editor. The process included defining a region of interest, specifying the time range, and selecting relevant bands to calculate the annual composite of the filtered dataset. The resulting nightlight image was exported as a TIFF file to Google Drive. Subsequently, calculations were performed to create a 10kmx10km box around the central latitude and longitude of the cluster point to extract nightlight values for each cluster. The process also included computing summary statistics of the nightlight values and calculating the correlation matrix with the consumption value.
+
+
+### 3) Generate download locations for Daytime satellite imagery 
+
+We generated download locations for daytime satellite images by employing both systematic and stochastic sampling approaches within cluster bounding boxes. This approach enabled us to generate 50 images per cluster, corresponding to 50 grids within the bounding box, ensuring a diverse and representative sample of imagery across the cluster. For each set of 50 points, we constructed the image name, image latitude, and image longitude, appending them to the data frame. We undertook undersampling in areas with low/no nightlights to ensure class imbalance in the dataset.
+
+### 4) Create nightlight bins/labels
+
+The Gaussian Mixture Model is used to establish nightlight bins/labels to classify the daytime satellite imagery into three categories based on nighttime values. The GMM-predicted cutoff values of 0.020 and 0.376 delineate a low nightlight bin, a medium nightlight bin, and a high nightlight bin. The respective percentages of daytime satellite imagery within each bin are 16,800 (49.55%), 10,250 (30.23%), and 6,850 (20.20%). This leads to a cumulative image count of 33,900.
+ 
+### 5) Daytime satellite imagery acquisition and processing
+
+The acquisition of high-resolution daytime satellite imagery is performed using the Planet API, which provides images specifically for research and academic purposes. The Planet Scope (PSScene) images have a spatial resolution ranging from 3.7 to 4.1 meters, later resampled to 3 meters for practical use. The process of obtaining Planet Imagery encompasses a series of steps. Initially, we set up the API Key in Planet Explorer. Following this, we apply essential filters such as geometry, date, and cloud filters to download the images properly. The download locations (image latitude and longitude) derived from previous steps serve as inputs for image retrieval, incorporating additional parameters like a zoom level of 14 and a maximum cloud filter of 0.05 (5%). The image acquisition spans the period from 2016 to 2017, culminating in a total of 33,900 downloaded images.
+
+### 6) Preparation of training and validation datasets
+
+The preparation of the training and validation dataset involves employing a stratified train-validation split method, ensuring that each cluster group has a random assignment of samples to the train-validation set. This approach mitigates potential sampling issues, preventing situations where certain clusters lack training-validation data and ensuring a consistent sampling distribution. Specifically, an 80-20 split is implemented, with 80% of the data allocated for training and 20% for validation within each cluster.
+
+### 7) Train Convolutional Neural Network (CNN) models and their variants (VGG) using a transfer learning approach
+
+This project uses a novel deep-learning approach through a transfer learning method to predict consumption. Transfer learning is a technique that involves using a pre-trained model as a starting point for a new task. The pre-trained model has already learned to recognize many different features and can be used as a starting point for training a new model on a related task.  To use transfer learning the pre-trained VGG model is first loaded into the memory and the weights of the layers are not updated during the training phase, as they are frozen. which means that they are not updated during training. This is because these layers have already learned to recognize many different features in images, and we want to leverage this knowledge in our new task. Thus our objective is to predict the probability class of a given daytime satellite image and assign it to the appropriate nightlight bin category, simultaneously learning features that are useful for consumption prediction. 
+
+Our model training process involves a structured series of steps using a pre-trained VGG-11 model, renowned for its capabilities in feature extraction and classification. This model, initially trained on the extensive ImageNet dataset, with approximately 133 million parameters and comprises 8 convolutional layers for feature extraction and 3 fully connected layers for classification. The process begins with model initialization, downloading a pre-trained VGG-11 model, and configuring its initial parameters. We tailor the model architecture to our task, incorporating RGB Planet Scope satellite images with a width and height of 224 by 224 dimensions. Data augmentation techniques are then applied to enhance dataset variability, including image flipping, resizing, cropping, normalization, and conversion to PyTorch tensors. Data loaders are established for efficient data handling during training. The Stochastic Gradient Descent (SGD) optimizer function is employed with a momentum of 0.1 and a learning rate of 1e-4, while the Categorical Cross Entropy (CCE) loss function is chosen for its suitability in multi-class classification problems, and the resulting valid loss of 0.54. With the model configured and data prepared, the training process begins with specific parameters such as batch size, epochs, and output classes of 8, 30, and 3 respectively. The trained model is saved for future use. Subsequently, the model's performance is evaluated using accuracy metrics, demonstrating a commendable 76.0% validation accuracy on the validation set. 
+
+### 8) Feature extraction and aggregation
+
+The feature vectors provide a lot of information about evidence of economic activity or lack of economic activity from satellite images. Feature vectors are a numerical representation of an object in an image. These features detected by the model include objects, edges, textures, and other patterns. In particular, urban areas, nonurban areas, roads, water bodies, etc. For feature vector extraction each image passes through the pre-trained VGG model and the final dense layer is used to extract the feature vector from each image in the clustur with the output feature vector Size of 4096.  Finally, the feature vectors of all images in the cluster are averaged to obtain a single feature vector per cluster. This feature vector is then used as input to a Ridge Regression model, which is used to predict consumption levels for that cluster.
+
+### 9) Building prediction model using Ridge regression model
+
+In this project, a Ridge Regression model is employed to forecast consumption levels utilizing the feature vector extracted from the previous step. Ridge regression is a form of a linear regression model with L2 regularization that prevents overfitting. A Ridge Regression model is a supervised learning algorithm, that predicts a target variable based on one or more predictor features. The feature vector, computed for each cluster, serves as the input variable, while the consumption level for each cluster is used as the output variable. Standardization or scaling is initially applied to both the input and output variables. Subsequently, a randomized cross-validation technique is employed with a 10-fold cross-validation, to predict consumption levels and evaluate model performance using a weighted R-square. The Ridge Regression model yielded a cross-validated mean R-squared value of 0.5. Finally, the forecasted consumption levels were visually represented on a map as well as the feature maps/ activation maps.
+
+
+## Implementation framework and environment
+
+we employed Google Colab Pro+ featuring high-performance GPUs—specifically A100 and V100—each boasting 51.0GB of RAM. The Python environment was used for developing scripts that executed the majority of the project's essential steps mentioned above. The PyTorch framework is used to implement deep learning and transfer learning. Additionally, a Javascript code was utilized for downloading nighttime satellite imagery.
 
 ## Scripts
 
@@ -145,6 +176,10 @@ The trained models can be found in this Google Drive directory:
 ## Predicted consumption (with log transformation)
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/predicted_con_log.png)   
+
+
+## Folder Structure
+
 
 ## Issues
 
