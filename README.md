@@ -182,7 +182,7 @@ The trained models can be found in this Google Drive directory:
 
 
 ## Folder Structure of the project
-
+```
  Main Project Folder/   
 ├── Images                    # Images used in the project and some output images   
 ├── Model_Output              # Model output files such as feature vectors     
@@ -190,7 +190,7 @@ The trained models can be found in this Google Drive directory:
 ├── Scripts                   # Scripts used in the project mainly Jupyter notebooks and javascript codes   
 ├── README.md                    # Overview of the project  
 ├── license.txt               # License for the project  
-
+```
 
 # data files used in the project
 
