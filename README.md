@@ -181,8 +181,18 @@ The trained models can be found in this Google Drive directory:
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/predicted_con_log.png)   
 
 
-## Folder Structure
+## Folder Structure of the project
 
+ Main Project Folder/
+├── Images/               # Images used in the project and some output images 
+├── Model_Output/         # Model output files such as feature vectors 
+├── Processed_Files/      # Intermediate files from the analysis
+├── Scripts/              # Scripts used in the project mainly Jupyter notebooks and javascript codes 
+├── README.md             # Overview of the project
+├── license.txt           # License for the project
+
+
+# data files used in the project
 
 ## Issues
 
