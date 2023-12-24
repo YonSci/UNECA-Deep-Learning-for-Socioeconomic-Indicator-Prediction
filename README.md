@@ -187,10 +187,10 @@ The trained models can be found in this Google Drive directory:
 ├── Model_Output                     # Model output files such as feature vectors
 ├── Nighttime_Satellite_Imagery      # It contains the Nighttime Satellite Imagery used in this project
 ├── Processed_Files                  # Intermediate files from the analysis  
-├── Scripts                          # Scripts used in the project mainly Jupyter notebooks and javascript codes   
+├── Scripts                          # Scripts used in the project mainly Jupyter notebooks and javascript codes
+├── Survey Data                      # LSMS Survey Data: Fourth Integrated Household Survey data (Consumption Aggregate & Household Geovariables file)
 ├── README.md                        # Overview of the project  
 ├── License.txt                      # License for the project
-├── Survey Data                      # LSMS Survey Data: Fourth Integrated Household Survey data (Consumption Aggregate & Household Geovariables file)
 ```
 
 ## Issues
