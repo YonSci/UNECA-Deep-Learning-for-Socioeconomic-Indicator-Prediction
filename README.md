@@ -17,7 +17,11 @@ We demonstrated a reproducible approach that provided a step-by-step guideline f
 The primary aim of this project is to integrate **survey data**,  **nighttime satellite imagery**, and  **high-resolution satellite imagery**, leveraging **machine learning/deep Learning** methodologies to forecast **socioeconomic indicators** using  a reproducible framework utilizing open-source tools and resources. 
 
 ## Application 💻
-This methodology holds broad applicability, extending beyond consumption expenditure prediction, it can be applied to wealth, poverty, income, and population prediction. It facilitates predictions during "off-years" when surveys are not conducted. It also enables near real-time monitoring serving as an early-warning system. This kind of approach is scalable, the trained model, from one location, can be applied to new regions with similar characteristics. The proposed method contributes to the production of frequent and continuous statistical reports on socioeconomic indicators, complementing existing methods. 
+- This methodology holds broad applicability, extending beyond consumption expenditure prediction, it can be applied to wealth, poverty, income, and population prediction.
+- It facilitates predictions during "off-years" when surveys are not conducted.
+- It also enables near real-time monitoring serving as an early-warning system.
+- This kind of approach is scalable, the trained model, from one location, can be applied to new regions with similar characteristics.
+- The proposed method contributes to the production of frequent and continuous statistical reports on socioeconomic indicators, complementing existing methods used in the National Statistics Offices (NSOs).
 
 ## Procedure 📋
 
