@@ -4,9 +4,9 @@
 
 ## Problem❓ 
 
-1) The absence of reliable and continuous socioeconomic data in developing nations poses a significant challenge to the monitoring and assessment of sustainable development goals and the formulation of well-informed policy decisions. Despite being crucial for governmental and non-governmental organizations, the acquisition of frequent and reliable national-level statistics through surveys is both costly and labor-intensive.
+1) The lack of reliable and continuous socioeconomic data in developing countries is a major obstacle to monitoring and evaluating sustainable development goals and making informed policy decisions. Obtaining frequent and reliable national-level statistics through surveys is both costly and labor-intensive, which poses a significant challenge for governmental and non-governmental organizations. 
 
-2) In recent years, there has been a growing interest in utilizing machine learning and deep learning techniques to estimate socioeconomic indicators. However, one of the main challenges associated with these approaches is the lack of reproducibility and documentation, making it difficult to verify and implement them effectively. This makes it difficult for organizations and researchers to replicate the results and adapt them to different contexts. To address this issue, it is crucial to focus on enhancing the reproducibility of machine learning projects.
+2) In recent years, there has been a growing interest in utilizing machine learning and deep learning techniques to estimate socioeconomic indicators. However, one of the main challenges associated with these approaches is the lack of reproducibility and documentation, making it difficult to verify and implement them effectively. This makes it difficult to replicate the results and adapt them to different contexts. To address this issue, it is crucial to focus on enhancing the reproducibility of machine learning projects.
 
 By addressing these challenges, organizations and researchers can develop more accurate, reliable, and reproducible machine-learning models for estimating socioeconomic indicators in developing countries. These models can provide valuable insights into the socioeconomic situation in these countries, helping policymakers and organizations make informed decisions and plan effective interventions.
 
