@@ -14,15 +14,16 @@ By addressing these challenges, organizations and researchers can develop more a
 
 1) In response to the first challenge, we present a cost-effective, accurate, and scalable method for predicting socioeconomic indicators. In this project, a novel machine learning/deep learning approach is implemented to predict socioeconomic indicators from survey data, and publicly available nighttime and high-resolution daytine satellite imagery. The methodology was originally established by researchers at [Stanford University.]( https://sustain.stanford.edu/predicting-poverty) and is currently being adopted by several institutions around the world.
   
-2) In response to the second challenge,  it is crucial to focus on enhancing the reproducibility of machine learning projects. This can be achieved by ensuring that the code, data, and environment used in the development of the models are well-documented and easily reproducible. By doing so, researchers can not only verify the accuracy and reliability of the models but also adapt them to different contexts and situations, thereby increasing their practical utility and impact. We demonstrated a reproducible approach that provided a step-by-step guideline for data collection, preprocessing, and code implementation
+2) In response to the second challenge,  it is crucial to focus on enhancing the reproducibility of machine learning projects. This can be achieved by ensuring that the code, data, and environment used in the development of the models are well-documented and easily reproducible. By doing so, researchers can not only verify the accuracy and reliability of the models but also adapt them to different contexts and situations, thereby increasing their practical utility and impact. We demonstrated a reproducible approach that provided a step-by-step guideline for data collection, preprocessing, and code implementation.
  
-3) Furthermore, in this approach, we address challenges related to nighttime satellite imagery retrieval by deploying GEE Javascript and resolving the time mismatches with survey data. Additionally, we tackle issues linked to Planet satellite imagery by updating the Planet downloader scripts to accommodate changes in the Planet DATA API parameters, ensuring accurate data retrieval. Furthermore, the implementation of advanced deep-learning models allows us to assess the performance of alternative models, enhancing the robustness of the methodology.
+3) Furthermore, we address challenges related to nighttime satellite imagery retrieval by deploying GEE Javascript and resolving the time mismatches with survey data. Additionally, we tackle issues linked to Planet satellite imagery by updating the Planet downloader scripts to accommodate changes in the Planet Data API parameters, ensuring accurate data retrieval. Furthermore, the implementation of advanced deep-learning models allows us to assess the performance of alternative models, enhancing the robustness of the methodology.
 
 ## Objective 🎯
 
 The primary aim of this project is to integrate **survey data**,  **nighttime satellite imagery**, and  **high-resolution satellite imagery**, leveraging **machine learning/deep Learning** methodologies to forecast **socioeconomic indicators** using  a reproducible framework utilizing open-source tools and resources. 
 
 ## Application 💻
+
 - This methodology holds broad applicability, extending beyond consumption expenditure prediction, it can be applied to wealth, poverty, income, and population prediction.
 - It facilitates predictions during "off-years" when surveys are not conducted.
 - It also enables near real-time monitoring serving as an early-warning system.
