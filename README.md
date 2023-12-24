@@ -189,7 +189,8 @@ The trained models can be found in this Google Drive directory:
 ├── Processed_Files   # Intermediate files from the analysis  
 ├── Scripts           # Scripts used in the project mainly Jupyter notebooks and javascript codes   
 ├── README.md         # Overview of the project  
-├── license.txt       # License for the project  
+├── License.txt       # License for the project
+├── Survey Data       # LSMS Survey Data: Fourth Integrated Household Survey data (Consumption Aggregate & Household Geovariables file)
 ```
 
 ## Issues
