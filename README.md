@@ -67,11 +67,7 @@ Our model training process involves a series of steps using a pre-trained VGG-11
 
 We tailor the model architecture to our task, incorporating RGB Planet Scope satellite images with a width and height of 224 by 224 dimensions. Data augmentation techniques are then applied to enhance dataset variability, including image flipping, resizing, cropping, normalization, and conversion to PyTorch tensors. Data loaders are established for efficient data handling during training. The Stochastic Gradient Descent (SGD) optimizer function is employed with a momentum of 0.1 and a learning rate of 1e-4, while the Categorical Cross Entropy (CCE) loss function is chosen for its suitability in multi-class classification problems, and the resulting valid loss of 0.54. With the model configured and data prepared, the training process begins with specific parameters such as batch size, epochs, and output classes of 8, 30, and 3 respectively. The trained model is saved for future use. Subsequently, the model's performance is evaluated using accuracy metrics, demonstrating a commendable 77.18% validation accuracy on the validation set. 
 
-### 8) Feature extraction and aggregation
-
-The feature vectors provide a lot of information about evidence of economic activity or lack of economic activity from satellite images. Feature vectors are a numerical representation of an object in an image. These features detected by the model include objects, edges, textures, and other patterns. In particular, urban areas, nonurban areas, roads, water bodies, etc. For feature vector extraction each image passes through the pre-trained VGG model and the final dense layer is used to extract the feature vector from each image in the clustur with the output feature vector Size of 4096.  Finally, the feature vectors of all images in the cluster are averaged to obtain a single feature vector per cluster. The cluster feature vector and cluster order files can be found [here](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/tree/main/Model_Output) This feature vector is then used as input to a Ridge Regression model, which is used to predict consumption levels for that cluster.
-
-### Models under investigation and their performances in predicting the nightlight bins from the extracted feature vectors 
+### Mmodels and their accuracy in classifying daytime satellite images into predefined nightlight categories or labels.
 
 | Model    | Train Loss | Valid Loss | Accuracy |
 |----------|------------|------------|----------|
@@ -81,6 +77,11 @@ The feature vectors provide a lot of information about evidence of economic acti
 | ResNet50  | 0.2388     | 0.4422     | 0.9147   |
 | ResNet152 |            |            |          |
 | RegNet_x_32gf    |            |            |          |
+
+### 8) Feature extraction and aggregation
+
+The feature vectors provide a lot of information about evidence of economic activity or lack of economic activity from satellite images. Feature vectors are a numerical representation of an object in an image. These features detected by the model include objects, edges, textures, and other patterns. In particular, urban areas, nonurban areas, roads, water bodies, etc. For feature vector extraction each image passes through the pre-trained VGG model and the final dense layer is used to extract the feature vector from each image in the clustur with the output feature vector Size of 4096.  Finally, the feature vectors of all images in the cluster are averaged to obtain a single feature vector per cluster. The cluster feature vector and cluster order files can be found [here](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/tree/main/Model_Output) This feature vector is then used as input to a Ridge Regression model, which is used to predict consumption levels for that cluster.
+
 
 ### 9) Building prediction model using Ridge regression model
 
