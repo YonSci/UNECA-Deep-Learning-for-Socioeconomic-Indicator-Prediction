@@ -65,7 +65,18 @@ This project uses a novel deep-learning approach through a transfer learning met
 
 Our model training process involves a series of steps using a pre-trained VGG-11 model, renowned for its capabilities in feature extraction and classification. This model, initially trained on the extensive ImageNet dataset, with approximately 133 million parameters and comprises 8 convolutional layers for feature extraction and 3 fully connected layers for classification. The process begins with model initialization, downloading a pre-trained VGG-11 model, and configuring its initial parameters. 
 
-We tailor the model architecture to our task, incorporating RGB Planet Scope satellite images with a width and height of 224 by 224 dimensions. Data augmentation techniques are then applied to enhance dataset variability, including image flipping, resizing, cropping, normalization, and conversion to PyTorch tensors. Data loaders are established for efficient data handling during training. The Stochastic Gradient Descent (SGD) optimizer function is employed with a momentum of 0.1 and a learning rate of 1e-4, while the Categorical Cross Entropy (CCE) loss function is chosen for its suitability in multi-class classification problems, and the resulting valid loss of 0.54. With the model configured and data prepared, the training process begins with specific parameters such as batch size, epochs, and output classes of 8, 30, and 3 respectively. The trained model is saved for future use. Subsequently, the model's performance is evaluated using accuracy metrics, demonstrating a commendable 76.0% validation accuracy on the validation set. 
+We tailor the model architecture to our task, incorporating RGB Planet Scope satellite images with a width and height of 224 by 224 dimensions. Data augmentation techniques are then applied to enhance dataset variability, including image flipping, resizing, cropping, normalization, and conversion to PyTorch tensors. Data loaders are established for efficient data handling during training. The Stochastic Gradient Descent (SGD) optimizer function is employed with a momentum of 0.1 and a learning rate of 1e-4, while the Categorical Cross Entropy (CCE) loss function is chosen for its suitability in multi-class classification problems, and the resulting valid loss of 0.54. With the model configured and data prepared, the training process begins with specific parameters such as batch size, epochs, and output classes of 8, 30, and 3 respectively. The trained model is saved for future use. Subsequently, the model's performance is evaluated using accuracy metrics, demonstrating a commendable 77.18% validation accuracy on the validation set. 
+
+### Models under investigation and their performances in predicting the nightlight bins from the extracted feature vectors 
+
+| Model    | Train Loss | Valid Loss | Accuracy |
+|----------|------------|------------|----------|
+| VGG11     | 0.6014     | 0.5321     | 0.7718   |
+| VGG16     | 0.5744     | 0.5284     | 0.7705   |
+| VGG19     | 0.5805     | 0.5175     | 0.7849   |
+| ResNet50  | 0.2388     | 0.4422     | 0.9147   |
+| ResNet152 |            |            |          |
+| RegNet    |            |            |          |
 
 ### 8) Feature extraction and aggregation
 
@@ -195,7 +206,6 @@ The trained models can be found in this Google Drive directory:
 ## Map of actual and estimated per capita consumption expenditure 
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/CONS_IDW_ACT_PRE_PRELOG.png)   
-
 
 ## Folder Structure of the project
 ```
