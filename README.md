@@ -67,7 +67,7 @@ Our model training process involves a series of steps using a pre-trained VGG-11
 
 We tailor the model architecture to our task, incorporating RGB Planet Scope satellite images with a width and height of 224 by 224 dimensions. Data augmentation techniques are then applied to enhance dataset variability, including image flipping, resizing, cropping, normalization, and conversion to PyTorch tensors. Data loaders are established for efficient data handling during training. The Stochastic Gradient Descent (SGD) optimizer function is employed with a momentum of 0.1 and a learning rate of 1e-4, while the Categorical Cross Entropy (CCE) loss function is chosen for its suitability in multi-class classification problems, and the resulting valid loss of 0.54. With the model configured and data prepared, the training process begins with specific parameters such as batch size, epochs, and output classes of 8, 30, and 3 respectively. The trained model is saved for future use. Subsequently, the model's performance is evaluated using accuracy metrics, demonstrating a commendable 77.18% validation accuracy on the validation set. 
 
-### Mmodels and their accuracy in classifying daytime satellite images into predefined nightlight categories or labels.
+### Models and their accuracy in classifying daytime satellite images into predefined nightlight categories or labels.
 
 | Model    | Train Loss | Valid Loss | Accuracy |
 |----------|------------|------------|----------|
@@ -89,7 +89,7 @@ In this project, a Ridge Regression model is employed to forecast consumption le
 
 ## Implementation framework and environment 🖥️ 
 
-We used **Google Colab Pro+** for computing with high-performance GPUs—specifically A100 and V100 each boasting 51.0GB of RAM. The Python environment was used for developing scripts that executed the majority of the project's essential steps mentioned above. The PyTorch framework is used to implement deep learning and transfer learning. Additionally, a Javascript code was utilized for downloading nighttime satellite imagery.
+We used **Google Colab Pro+** for computing with high-performance GPUs—specifically A100 and V100 each boasting 51.0GB of RAM. The Python environment was used for developing scripts that executed the majority of the project's essential steps mentioned above. The **PyTorch** framework is used to implement deep learning and transfer learning. A Javascript code was utilized for downloading nighttime satellite imagery via Google Earth Engine (GEE). **QGIS** is also used for visualization and plotting maps.
 
 ## Scripts 📜
 
