@@ -76,7 +76,7 @@ We tailor the model architecture to our task, incorporating RGB Planet Scope sat
 | VGG19     | 0.5805     | 0.5175     | 0.7849   |
 | ResNet50  | 0.2388     | 0.4422     | 0.9147   |
 | ResNet152 |            |            |          |
-| RegNet    |            |            |          |
+| RegNet_x_32gf    |            |            |          |
 
 ### 8) Feature extraction and aggregation
 
