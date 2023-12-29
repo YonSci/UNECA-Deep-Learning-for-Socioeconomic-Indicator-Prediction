@@ -192,6 +192,11 @@ The trained models can be found in this Google Drive directory:
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/predicted_con_log.png)   
 
 
+## Map of actual and estimated per capita consumption expenditure 
+
+ ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/CONS_IDW_ACT_PRE_PRELOG.png)   
+
+
 ## Folder Structure of the project
 ```
  Main Project Folder/   
