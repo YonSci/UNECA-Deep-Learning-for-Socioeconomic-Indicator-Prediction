@@ -75,8 +75,7 @@ We tailor the model architecture to our task, incorporating RGB Planet Scope sat
 | VGG16     | 0.5744     | 0.5284     | 0.7705   |
 | VGG19     | 0.5805     | 0.5175     | 0.7849   |
 | ResNet50  | 0.2388     | 0.4422     | 0.9147   |
-| ResNet152 |            |            |          |
-| RegNet_x_32gf    |            |            |          |
+
 
 ### 8) Feature extraction and aggregation
 
@@ -187,7 +186,7 @@ The trained models can be found in this Google Drive directory:
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/cv_r2.png)   
 
-## Other Metrics  
+## Accuracy Metrics  
 
 | Metric                        | Predicted consumption |
 |-------------------------------|---------|
