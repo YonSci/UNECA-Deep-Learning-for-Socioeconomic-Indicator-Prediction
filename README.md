@@ -189,10 +189,11 @@ The trained models can be found in this Google Drive directory:
 
 ## Other Metrics  
 
-| Metric                        | Predicted consumption (without transformation) |  Predicted consumption (with log transformation) |
-|-------------------------------|---------|---------|
-| Mean Absolute Error (MAE)     | 0.81    | 0.72    |
-| Root Mean Squared Error (RMSE)| 3.08    | 3.1     |
+| Metric                        | Predicted consumption |
+|-------------------------------|---------|
+| Cross-validated mean R-squared | 0.5    |
+| Mean Absolute Error (MAE)     | 0.72    |
+| Root Mean Squared Error (RMSE)| 3.1     |
 
 
 ## Predicted consumption (without transformation)
