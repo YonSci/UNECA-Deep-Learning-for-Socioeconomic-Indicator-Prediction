@@ -102,10 +102,16 @@ The training process involves a series of steps using variants of convolutional 
 - Data loaders are established for efficient data handling during training and validation.
 - The Stochastic Gradient Descent (SGD) optimizer function is employed with a momentum of 0.1 and a learning rate of 1e-4.
 - The Categorical Cross Entropy (CCE) loss function is chosen for its suitability in multi-class classification problems.
-- The training process begins with batch size = 8, epochs = 30, and output classes = 3.
-- Subsequently, the model's performance is evaluated using accuracy metrics such as Train Loss, Valid Loss, and Accuracy.
-- The trained model is saved for future use.
+  
+- The training process begins with the following batch size, epochs, and output classes.
+- 
+| Parameter      | Value |
+|----------------|-------|
+| Batch Size     | 8     |
+| Epochs         | 30    |
+| Output Classes | 3     |
 
+- Subsequently, the model's performance is evaluated using the following accuracy metrics: Train Loss, Valid Loss, and Accuracy.
 ### Models and their accuracy in classifying daytime satellite images into predefined nightlight categories or labels.
 
 | Model    | Train Loss | Valid Loss | Accuracy |
@@ -113,6 +119,8 @@ The training process involves a series of steps using variants of convolutional 
 | VGG11     | 0.6014     | 0.5321     | 0.7718   |
 | VGG16     | 0.5744     | 0.5284     | 0.7705   |
 | VGG19     | 0.5805     | 0.5175     | 0.7849   |
+
+- Finally, the trained model is saved for future use.
 
 ### 8) Feature extraction and aggregation
 
