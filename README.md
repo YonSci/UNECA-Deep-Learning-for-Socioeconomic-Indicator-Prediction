@@ -104,7 +104,6 @@ The training process involves a series of steps using variants of convolutional 
 - The Categorical Cross Entropy (CCE) loss function is chosen for its suitability in multi-class classification problems.
   
 - The training process begins with the following batch size, epochs, and output classes.
-- 
 | Parameter      | Value |
 |----------------|-------|
 | Batch Size     | 8     |
