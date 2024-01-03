@@ -30,6 +30,19 @@ The primary aim of this project is to integrate **survey data**,  **nighttime sa
 - This kind of approach is scalable, the trained model, from one location, can be applied to new regions with similar characteristics.
 - The proposed method contributes to the production of frequent and continuous statistical reports on socioeconomic indicators, complementing existing methods used in the National Statistics Offices (NSOs).
 
+
+## Implementation Frameworks and Environment 🖥️ 
+
+We used **Google Colab Pro+** for computing with high-performance GPUs—specifically A100 and V100 with 51.0GB of RAM. 
+
+The project utilizes the following framework & tools: ​
+
+1) **PyTorch framework** using Python programming language: PyTorch is a popular deep learning framework that supports Python, making it easier for developers to work with machine learning models and data processing tasks.
+   
+2) **Google Earth Engine (GEE)** with JavaScript codes: GEE is a cloud-based geospatial data processing platform that allows users to visualize, analyze, and model Earth science data. JavaScript codes can be used to create custom GEE applications and widgets for interactive mapping and data visualization.
+  
+3) **QGIS**: QGIS is a free and open-source geographic information system (GIS) that allows users to create, analyze, manage, and visualize spatial or geographic data. QGIS can be used for various applications, including mapping, spatial analysis, and visualization.
+
 ## Procedure 📋
 
 The implementation of this approach includes important steps such as:
@@ -85,18 +98,6 @@ The feature vectors provide a lot of information about evidence of economic acti
 ### 9) Building prediction model using Ridge regression model
 
 In this project, a Ridge Regression model is employed to forecast consumption levels utilizing the feature vector extracted from the previous step. Ridge regression is a form of a linear regression model with L2 regularization that prevents overfitting. A Ridge Regression model is a supervised learning algorithm, that predicts a target variable based on one or more predictor features. The feature vector, computed for each cluster, serves as the input variable, while the consumption level for each cluster is used as the output variable. Standardization or scaling is initially applied to both the input and output variables. Subsequently, a randomized cross-validation technique is employed with a 10-fold cross-validation, to predict consumption levels and evaluate model performance using a weighted R-square. The Ridge Regression model yielded a cross-validated mean R-squared value of 0.5. Finally, the forecasted consumption levels were visually represented on a map as well as the feature maps/ activation maps.
-
-## Implementation framework and environment 🖥️ 
-
-We used **Google Colab Pro+** for computing with high-performance GPUs—specifically A100 and V100 with 51.0GB of RAM. 
-
-The project utilizes the following framework & tools: ​
-
-1) **PyTorch framework** using Python programming language: PyTorch is a popular deep learning framework that supports Python, making it easier for developers to work with machine learning models and data processing tasks.
-   
-2) **Google Earth Engine (GEE)** with JavaScript codes: GEE is a cloud-based geospatial data processing platform that allows users to visualize, analyze, and model Earth science data. JavaScript codes can be used to create custom GEE applications and widgets for interactive mapping and data visualization.
-  
-3) **QGIS**: QGIS is a free and open-source geographic information system (GIS) that allows users to create, analyze, manage, and visualize spatial or geographic data. QGIS can be used for various applications, including mapping, spatial analysis, and visualization.
 
 ## Scripts 📜
 
