@@ -45,7 +45,7 @@ The project utilizes the following framework & tools: ​
 
 ## High-level Workflow 
 ​
-[Workflow](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/workflow.p)
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/workflow.p)
 
 ## Procedure 📋
 
