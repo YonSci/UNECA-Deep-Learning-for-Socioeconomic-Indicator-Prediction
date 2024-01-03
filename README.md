@@ -82,12 +82,14 @@ The acquisition of high-resolution daytime satellite imagery is performed using 
 
 The preparation of the training and validation dataset involves employing a stratified train-validation split method, ensuring that each cluster group has a random assignment of samples to the train-validation set. This approach mitigates potential sampling issues, preventing situations where certain clusters lack training-validation data and ensuring a consistent sampling distribution. Specifically, an 80-20 split is implemented, with 80% of the data allocated for training and 20% for validation within each cluster.
 
-### 7) Train Convolutional Neural Network (CNN) models using a transfer learning approach
+### 7) Train variants of Convolutional Neural Network (CNN) models using a transfer learning approach
 
 This project uses a novel deep-learning approach through a transfer learning method to predict consumption. Transfer learning is a technique that involves using a pre-trained model as a starting point for a new task. The pre-trained model has already learned to recognize many different features and can be used as a starting point for training a new model on a related task. In this particular case, we are using nighttime light as a proxy for socioeconomic indicators. Our objective is to predict the probability class of a given daytime satellite image and assign it to the appropriate nightlight bin category, simultaneously learning features that are useful for consumption prediction. 
 
-The training process involves a series of steps using variants of convolutional neural network (CNN) pre-trained VGG-11, VGG-16, and VGG-19, models, renowned for their capabilities in feature extraction and classification. These models were initially trained on the ImageNet dataset. The ImageNet dataset contains over 1.2 million images distributed across 1,000 classes. 
+The training process involves a series of steps using variants of CNN pre-trained [Virtual Geometry Group (VGG) models](https://pytorch.org/vision/main/models/vgg.html) The project employs very deep Convolutional Neural Networks (CNNs) for Large-Scale Image Recognition, such as VGG-11, VGG-16, and VGG-19. 
 
+
+The models used in this project are very Deep Convolutional Networks for Large-Scale Image Recognition such as **VGG-11**, **VGG-16**, and **VGG-19**. These models are renowned for their capabilities in feature extraction and classification. The VGG models are known for their depth and their ability to capture intricate features from images, making them suitable for a wide range of image classification tasks. These models have been widely used in various applications, including image classification, object recognition, and image segmentation. These models were initially trained on the ImageNet dataset that contains over 1.2 million images distributed across 1,000 classes. 
 
 
 | Model      | Convolutional Layers | Fully Connected Layers | Parameters (approx.) | Pooling Layers  | Input Size | Activation Function | Pre-training   | Kernel Size | Stride | Padding |
