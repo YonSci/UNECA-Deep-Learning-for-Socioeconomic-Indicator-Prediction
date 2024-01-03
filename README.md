@@ -20,13 +20,13 @@ By addressing these challenges, organizations and researchers can develop more a
 
 The primary aim of this project is to integrate **survey data**,  **nighttime satellite imagery**, and  **daytime high-resolution satellite imagery**, leveraging **machine learning/deep Learning** methodologies to forecast **socioeconomic indicators** using  a reproducible framework utilizing open-source tools and resources. 
 
-​### Specific Objective
+### Specific Objective
 
 - Fill both temporal and spatial data gaps by producing reliable socioeconomic information (i.e. Consumption expenditure for Malawi for the year 2016).​
 
 - Enhance the existing methodology using only open-source tools and publicly available data/resources.​
 
-​- Improve the reproducibility and documentation of the existing methodology mainly key stages such as data collection, code implementation, and data analysis. 
+- Improve the reproducibility and documentation of the existing methodology mainly key stages such as data collection, code implementation, and data analysis. 
 
 ## Application 💻
 
