@@ -84,11 +84,28 @@ The preparation of the training and validation dataset involves employing a stra
 
 ### 7) Train Convolutional Neural Network (CNN) models using a transfer learning approach
 
-This project uses a novel deep-learning approach through a transfer learning method to predict consumption. Transfer learning is a technique that involves using a pre-trained model as a starting point for a new task. The pre-trained model has already learned to recognize many different features and can be used as a starting point for training a new model on a related task. Our objective is to predict the probability class of a given daytime satellite image and assign it to the appropriate nightlight bin category, simultaneously learning features that are useful for consumption prediction. 
+This project uses a novel deep-learning approach through a transfer learning method to predict consumption. Transfer learning is a technique that involves using a pre-trained model as a starting point for a new task. The pre-trained model has already learned to recognize many different features and can be used as a starting point for training a new model on a related task. In this particular case, we are using nighttime light as a proxy for socioeconomic indicators. Our objective is to predict the probability class of a given daytime satellite image and assign it to the appropriate nightlight bin category, simultaneously learning features that are useful for consumption prediction. 
 
-Our model training process involves a series of steps using a pre-trained VGG-11 model, renowned for its capabilities in feature extraction and classification. This model, initially trained on the extensive ImageNet dataset, with approximately 133 million parameters and comprises 8 convolutional layers for feature extraction and 3 fully connected layers for classification. The process begins with model initialization, downloading a pre-trained VGG-11 model, and configuring its initial parameters. 
+The training process involves a series of steps using variants of convolutional neural network (CNN) pre-trained VGG-11, VGG-16, and VGG-19, models, renowned for their capabilities in feature extraction and classification. These models were initially trained on the ImageNet dataset. The ImageNet dataset contains over 1.2 million images distributed across 1,000 classes. 
 
-We tailor the model architecture to our task, incorporating RGB Planet Scope satellite images with a width and height of 224 by 224 dimensions. Data augmentation techniques are then applied to enhance dataset variability, including image flipping, resizing, cropping, normalization, and conversion to PyTorch tensors. Data loaders are established for efficient data handling during training. The Stochastic Gradient Descent (SGD) optimizer function is employed with a momentum of 0.1 and a learning rate of 1e-4, while the Categorical Cross Entropy (CCE) loss function is chosen for its suitability in multi-class classification problems, and the resulting valid loss of 0.54. With the model configured and data prepared, the training process begins with specific parameters such as batch size, epochs, and output classes of 8, 30, and 3 respectively. The trained model is saved for future use. Subsequently, the model's performance is evaluated using accuracy metrics, demonstrating a commendable 77.18% validation accuracy on the validation set. 
+
+
+| Model      | Convolutional Layers | Fully Connected Layers | Parameters (approx.) | Pooling Layers | Input Size | Activation Function | Pre-training      |
+|------------|----------------------|-------------------------|-----------------------|----------------|------------|-----------------------|-------------------|
+| VGG-11     | 8                    | 3                       | 132 million           | Max Pooling    | 224x224x3   | ReLU                  | ImageNet          |
+| VGG-16     | 13                   | 3                       | 138 million           | Max Pooling    | 224x224x3   | ReLU                  | ImageNet          |
+| VGG-19     | 16                   | 3                       | 144 million           | Max Pooling    | 224x224x3   | ReLU                  | ImageNet          |
+
+
+- The modeling process begins with model initialization, downloading pre-trained models, and configuring their initial parameters.
+- We tailor the model architecture to our task, incorporating RGB Planet Scope satellite images (3 channels) with a width and height of 224 by 224 dimensions. 
+- Data augmentation techniques are then applied to enhance dataset variability, including image flipping, resizing, cropping, normalization, and conversion to PyTorch tensors.
+- Data loaders are established for efficient data handling during training and validation.
+- The Stochastic Gradient Descent (SGD) optimizer function is employed with a momentum of 0.1 and a learning rate of 1e-4.
+- The Categorical Cross Entropy (CCE) loss function is chosen for its suitability in multi-class classification problems.
+- The training process begins with batch size = 8, epochs = 30, and output classes = 3.
+- Subsequently, the model's performance is evaluated using accuracy metrics such as Train Loss, Valid Loss, and Accuracy.
+- The trained model is saved for future use.
 
 ### Models and their accuracy in classifying daytime satellite images into predefined nightlight categories or labels.
 
@@ -97,8 +114,6 @@ We tailor the model architecture to our task, incorporating RGB Planet Scope sat
 | VGG11     | 0.6014     | 0.5321     | 0.7718   |
 | VGG16     | 0.5744     | 0.5284     | 0.7705   |
 | VGG19     | 0.5805     | 0.5175     | 0.7849   |
-| ResNet50  | 0.2388     | 0.4422     | 0.9147   |
-
 
 ### 8) Feature extraction and aggregation
 
