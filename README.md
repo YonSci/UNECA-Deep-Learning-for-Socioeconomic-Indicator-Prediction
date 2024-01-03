@@ -1,4 +1,4 @@
-# Exploring ML/Deep Learning Techniques for Socioeconomic Indicator Forecasting: A Fusion of Satellite Images and Survey Data
+# Investigating Machine Learning/Deep Learning Approaches for Predicting Socioeconomic Indicators through Transfer Learning: A Fusion of Satellite Imagery and Survey Data
 
 ## Problem❓ 
 
