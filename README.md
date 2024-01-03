@@ -88,7 +88,15 @@ In this project, a Ridge Regression model is employed to forecast consumption le
 
 ## Implementation framework and environment 🖥️ 
 
-We used **Google Colab Pro+** for computing with high-performance GPUs—specifically A100 and V100 each boasting 51.0GB of RAM. The Python environment was used for developing scripts that executed the majority of the project's essential steps mentioned above. The **PyTorch** framework is used to implement deep learning and transfer learning. A Javascript code was utilized for downloading nighttime satellite imagery via Google Earth Engine (GEE). **QGIS** is also used for visualization and plotting maps.
+We used **Google Colab Pro+** for computing with high-performance GPUs—specifically A100 and V100 with 51.0GB of RAM. 
+
+The project utilizes the following framework & tools: ​
+
+1) **PyTorch framework** using Python programming language: PyTorch is a popular deep learning framework that supports Python, making it easier for developers to work with machine learning models and data processing tasks.
+   
+2) **Google Earth Engine (GEE)** with JavaScript codes: GEE is a cloud-based geospatial data processing platform that allows users to visualize, analyze, and model Earth science data. JavaScript codes can be used to create custom GEE applications and widgets for interactive mapping and data visualization.
+  
+3) **QGIS**: QGIS is a free and open-source geographic information system (GIS) that allows users to create, analyze, manage, and visualize spatial or geographic data. QGIS can be used for various applications, including mapping, spatial analysis, and visualization.
 
 ## Scripts 📜
 
