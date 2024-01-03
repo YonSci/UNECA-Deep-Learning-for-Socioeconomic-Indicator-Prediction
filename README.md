@@ -43,6 +43,10 @@ The project utilizes the following framework & tools: ​
   
 3) **QGIS**: QGIS is a free and open-source geographic information system (GIS) that allows users to create, analyze, manage, and visualize spatial or geographic data. QGIS can be used for various applications, including mapping, spatial analysis, and visualization.
 
+## High-level Workflow 
+​
+[Workflow](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/workflow.p)
+
 ## Procedure 📋
 
 The implementation of this approach includes important steps such as:
