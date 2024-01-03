@@ -1,7 +1,5 @@
 # Exploring ML/Deep Learning Techniques for Socioeconomic Indicator Forecasting: A Fusion of Satellite Images and Survey Data
 
- ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/workflow.png)   
-
 ## Problem❓ 
 
 1) The lack of reliable and continuous socioeconomic data in developing countries is a major obstacle to monitoring and evaluating sustainable development goals and making informed policy decisions. Obtaining frequent and reliable national-level statistics through surveys is both costly and labor-intensive, which poses a significant challenge for governmental and non-governmental organizations. 
@@ -45,7 +43,7 @@ The project utilizes the following framework & tools: ​
 
 ## High-level Workflow 
 ​
-![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/workflow.p)
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/workflow.png)   
 
 ## Procedure 📋
 
