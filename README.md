@@ -90,12 +90,11 @@ The training process involves a series of steps using variants of convolutional 
 
 
 
-| Model      | Convolutional Layers | Fully Connected Layers | Parameters (approx.) | Pooling Layers | Input Size | Activation Function | Pre-training      |
-|------------|----------------------|-------------------------|-----------------------|----------------|------------|-----------------------|-------------------|
-| VGG-11     | 8                    | 3                       | 132 million           | Max Pooling    | 224x224x3   | ReLU                  | ImageNet          |
-| VGG-16     | 13                   | 3                       | 138 million           | Max Pooling    | 224x224x3   | ReLU                  | ImageNet          |
-| VGG-19     | 16                   | 3                       | 144 million           | Max Pooling    | 224x224x3   | ReLU                  | ImageNet          |
-
+| Model      | Convolutional Layers | Fully Connected Layers | Parameters (approx.) | Pooling Layers  | Input Size | Activation Function | Pre-training   | Kernel Size | Stride | Padding |
+|------------|----------------------|------------------------|----------------------|-----------------|------------|---------------------|----------------|------------|---------|---------|
+| VGG-11     | 8                    | 3                      | 132 million          | Max Pooling     | 224x224x3  | ReLU                | ImageNet       | 3 X 3      |   1     |   1     |
+| VGG-16     | 13                   | 3                      | 138 million          | Max Pooling     | 224x224x3  | ReLU                | ImageNet       | 3 X 3      |   1     |   1     |
+| VGG-19     | 16                   | 3                      | 144 million          | Max Pooling     | 224x224x3  | ReLU                | ImageNet       | 3 X 3      |   1     |   1     |
 
 - The modeling process begins with model initialization, downloading pre-trained models, and configuring their initial parameters.
 - We tailor the model architecture to our task, incorporating RGB Planet Scope satellite images (3 channels) with a width and height of 224 by 224 dimensions. 
