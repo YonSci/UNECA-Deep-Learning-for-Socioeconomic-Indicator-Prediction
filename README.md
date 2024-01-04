@@ -57,6 +57,8 @@ The project utilizes the following framework & tools: ​
 
 The implementation of this approach includes important steps such as:
 
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/method.png)   
+
 ### 1)  Survey data collection, and processing
 
 The project used publicly available survey data from the World Bank Living Standards Measurement Study (LSMS) Microdata Library, Fourth Integrated Household Survey (IHS4), gathered through the National Statistical Office (NSO) of Malawi, during the period spanning from April 2016 to April 2017. The [Survey Data ](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/tree/main/Survey_Data) passed through several tasks such as data cleaning, grouping, standardizing consumption values, and calculating daily per capita consumption. A summary statistical analysis was conducted, and a map illustrating the per capita consumption across the surveyed areas in Malawi was generated.
