@@ -114,13 +114,13 @@ The models used in this project are very Deep Convolutional Networks for Large-S
 | Output Classes | 3     |
 
 - Subsequently, the model's performance is evaluated using the following accuracy metrics: Train Loss, Valid Loss, and Accuracy.
-### Models and their accuracy in classifying daytime satellite images into predefined nightlight categories or labels.
+## Models and their accuracy in classifying daytime satellite images into predefined nightlight categories or labels
 
-## Training and Validation Loss
+### Training and Validation Loss
 
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/train-valid_loss.png)  
 
-## Training and Validation Accuracy
+### Training and Validation Accuracy
 
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/train_valid_acc.png)  
 
