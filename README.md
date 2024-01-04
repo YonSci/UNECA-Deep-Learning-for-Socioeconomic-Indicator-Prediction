@@ -104,8 +104,7 @@ The models used in this project are very Deep Convolutional Networks for Large-S
 - Data augmentation techniques are then applied to enhance dataset variability, including image flipping, resizing, cropping, normalization, and conversion to PyTorch tensors.
 - Data loaders are established for efficient data handling during training and validation.
 - The Stochastic Gradient Descent (SGD) optimizer function is employed with a momentum of 0.1 and a learning rate of 1e-4.
-- The Categorical Cross Entropy (CCE) loss function is chosen for its suitability in multi-class classification problems.
-  
+- The Categorical Cross Entropy (CCE) loss function is chosen for its suitability in multi-class classification problems.  
 - The training process begins with the following batch size, epochs, and output classes.
   
 | Parameter      | Value |
@@ -116,6 +115,14 @@ The models used in this project are very Deep Convolutional Networks for Large-S
 
 - Subsequently, the model's performance is evaluated using the following accuracy metrics: Train Loss, Valid Loss, and Accuracy.
 ### Models and their accuracy in classifying daytime satellite images into predefined nightlight categories or labels.
+
+## Training and Validation Loss
+
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/train-valid_loss.png)  
+
+## Training and Validation Accuracy
+
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/train_valid_acc.png)  
 
 | Model    | Train Loss | Valid Loss | Accuracy |
 |----------|------------|------------|----------|
@@ -216,15 +223,6 @@ The trained models can be found in this Google Drive directory:
 ### Sample feature maps from high nightlight bin
 
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/fm_high.png)  
-
-
-## Training and Validation Loss
-
-![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/train-valid_loss.png)  
-
-## Training and Validation Accuracy
-
-![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/train_valid_acc.png)  
 
 ## Cross-validated mean R-squared 
 
