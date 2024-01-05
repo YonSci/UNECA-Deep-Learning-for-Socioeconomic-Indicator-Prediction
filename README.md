@@ -1,6 +1,6 @@
 # Investigating Machine Learning/Deep Learning Approaches for Predicting Socioeconomic Indicators through Transfer Learning: A Fusion of Satellite Imagery and Survey Data
 
-![Alt text]()   
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/intro_im.png)   
 
 ## Problem❓ 
 
