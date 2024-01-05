@@ -53,11 +53,11 @@ The project utilizes the following framework & tools: ​
 ​
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/workflow.png)   
 
-## Methods and Procedure 📋
-
-The implementation of this approach includes important steps such as:
+## Procedure 📋
 
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/method1.png)   
+
+The implementation of this approach includes important steps such as:
 
 ### 1)  Survey data collection, and processing
 
