@@ -82,11 +82,14 @@ For a detailed implementation procedure, go through: [Survey_Data_Preprocessing_
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/summry_stat1.png)   
 
 
-
-
 ### 2) Nightlight satellite imagery acquisition, and processing
 
-The project also utilized nighttime satellite imagery sourced from the NOAA National Center for Environmental Information and downloaded from the Earth Engine Data Catalog by using the Google Earth Engine (GEE) Javascript code editor. The process included defining a region of interest, specifying the time range, and selecting relevant bands to calculate the annual composite of the filtered dataset. The resulting nightlight image was exported as a TIFF file to Google Drive. You can find the data [here](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/tree/main/Nighttime_Satellite_Imagery). Subsequently, calculations were performed to create a 10kmx10km box around the central latitude and longitude of the cluster point to extract nightlight values for each cluster. The process also included computing summary statistics of the nightlight values and calculating the correlation matrix with the consumption value.
+The project also utilized nighttime satellite imagery sourced from the [NOAA National Center for Environmental Information](https://ngdc.noaa.gov/eog/viirs/download_dnb_composites.html​) and downloaded using the Google Earth Engine (GEE) Javascript code editor. Here you can find the Javascript [code](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Scripts/GEE_Nightlight_2016_2017.js)
+
+In the script, we filtered the nighttime satellite imagery using the area of interest (AOI), temporal duration, and the relevant spectral bands required for the analysis.  Then we computed the annual composite of the filtered images. The resulting nightlight image was exported as a GeoTIFF file to Google Drive. You can find the annual composite nighttime satellite imagery for the year 2016 [here](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Nighttime_Satellite_Imagery/malawi_nightlight_2016_viirs.tif). Subsequently, calculations were performed to create a 10kmx10km box around the central latitude and longitude to retrieve the nightlight values for each cluster. The process also included computing summary statistics of the nightlight values and calculating their correlation with the consumption value. Finally, the processed data is used to generate nightlight value maps.
+
+For a detailed implementation procedure, go through [Processing_Nighttime_Satellite_Imagery.ipynb](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Scripts/Processing_Nighttime_Satellite_Imagery.ipynb)
+
 
 #### Sample Nightlight Image 
 
