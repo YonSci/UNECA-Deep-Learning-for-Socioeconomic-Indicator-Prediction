@@ -67,13 +67,11 @@ The project used publicly available survey data from the World Bank Living Stand
 
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/Daily_Per_Capita_Consumption_Malawi_Year_2016.png)   
 
-#### Basic Summary Statistics​ 
+#### Basic summary statistics​ & distributions of consumption per capita per day 
 
-![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/summry_stat.png)   
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/summry_stat1.png)   
 
-#### Distributions of Consumption per capita
 
-![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/dist_cons.png)   
 
 
 ### 2) Nightlight satellite imagery acquisition, and processing
