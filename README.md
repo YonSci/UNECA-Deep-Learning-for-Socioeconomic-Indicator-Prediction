@@ -65,17 +65,12 @@ The implementation of this approach includes important steps such as:
 
 The project used publicly available survey data from the [World Bank Living Standards Measurement Study (LSMS)](https://microdata.worldbank.org/index.php/catalog/lsms/) Microdata Library, particularly the [Fourth Integrated Household Survey (IHS4)](https://microdata.worldbank.org/index.php/catalog/2936/data-dictionary/F98?file_name=HouseholdGeovariablesIHS4), gathered through the National Statistical Office (NSO) of Malawi, during the period spanning from April 2016 to April 2017.
 
-Once, the [Survey Data ](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/tree/main/Survey_Data) is retrieved and undergoes a data cleaning process to handle missing values. Subsequently, the consumption values were standardized using [Purchasing Power Parity (PPP)](https://data.worldbank.org/indicator/PA.NUS.PRVT.PP?locations=MW) for Malawi in 2016, and the standardized consumption and Geovariable datasets were merged using their unique ID. The data is then grouped by the enumeration area using coordinates (latitude & longitude), and the daily consumption per person is computed ($/person/day). Following this, statistical information is summarized, and the results are verified with external [World Bank benchmarks](https://data.worldbank.org/indicator/SI.SPR.PCAP?end=2016&locations=MW&start=2016&view=bar​). Finally, the processed data is used to generate consumption maps, providing a visual representation of the predicted socioeconomic indicators. For a detailed implementation procedure, go through: [Survey_Data_Preprocessing_Malawi_2016.ipynb](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Scripts/Survey_Data_Preprocessing_Malawi_2016.ipynb)
-Steps: 
-1) Retrieving Survey Data​
-2) Data cleaning: Handling missing values​
-3) Standardizing consumption values​
-4) Merge the standardized consumption and Geovariable datasets​
-5) Group the data by the enumeration area (EA)  using the coordinates​
-6) Computing daily per capita consumption ($/person/day)​
-7) Summarizing statistical information​
-8) Verification with external benchmarks​
-9) Generating consumption maps​
+Once, the [Survey Data ](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/tree/main/Survey_Data) is retrieved and undergoes a data cleaning process to handle missing values. Subsequently, the consumption values were standardized using [Purchasing Power Parity (PPP)](https://data.worldbank.org/indicator/PA.NUS.PRVT.PP?locations=MW) for Malawi in 2016, and the standardized consumption and Geovariable datasets were merged using their unique ID. The data is then grouped by the enumeration area using coordinates (latitude & longitude), and the daily consumption per person is computed ($/person/day). Following this, statistical information is summarized, and the results are verified with external [World Bank benchmarks](https://data.worldbank.org/indicator/SI.SPR.PCAP?end=2016&locations=MW&start=2016&view=bar​). Finally, the processed data is used to generate consumption maps, providing a visual representation of the predicted socioeconomic indicators. 
+
+For a detailed implementation procedure, go through: [Survey_Data_Preprocessing_Malawi_2016.ipynb](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Scripts/Survey_Data_Preprocessing_Malawi_2016.ipynb)
+
+#### Steps: 
+
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/survey2.png)   
 
 #### Daily Consumption per Capita for Malawi for 2016
