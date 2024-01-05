@@ -92,6 +92,9 @@ The process also included computing summary statistics of the nightlight values 
 
 For a detailed implementation procedure, go through [Processing_Nighttime_Satellite_Imagery.ipynb](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Scripts/Processing_Nighttime_Satellite_Imagery.ipynb)
 
+#### Steps: 
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/n4.png)
+
 #### Description of Nightlight satellite imagery
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/n1.png)
 
