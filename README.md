@@ -69,11 +69,11 @@ The project used publicly available survey data from the World Bank Living Stand
 
 #### Basic Summary Statistics​ 
 
-![Alt text]()   
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/summry_stat.png)   
 
 #### Distributions of Consumption per capita
 
-![Alt text]()   
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/dist_cons.png)   
 
 
 ### 2) Nightlight satellite imagery acquisition, and processing
