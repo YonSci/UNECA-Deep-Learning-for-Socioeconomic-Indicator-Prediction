@@ -78,6 +78,9 @@ Steps:
 8) Verification with external benchmarks​
 9) Generating consumption maps​
 
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/survey1.png)   
+
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/survey2.png)   
 
 #### Daily Consumption per Capita for Malawi for 2016
 
