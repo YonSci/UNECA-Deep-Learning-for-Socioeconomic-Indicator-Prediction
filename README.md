@@ -92,21 +92,21 @@ The process also included computing summary statistics of the nightlight values 
 
 For a detailed implementation procedure, go through [Processing_Nighttime_Satellite_Imagery.ipynb](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Scripts/Processing_Nighttime_Satellite_Imagery.ipynb)
 
+#### Description of Nightlight satellite imagery
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/n1.png)
 
-#### Sample Nightlight Image 
+#### Nightlight satellite imagery 
 
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/nightlight.png)  
 
-
 #### Cluster Boxes
-![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/Cluster_box.png)  
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/n2.png)  
 
-
-#### Nightlight and Consumption for Malawi for 2016
+#### Map of Nightlight Values and Consumption for Malawi for 2016
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/nightlight_consumtion.png) 
 
-####
-
+#### Correlation between  Nightlight values and Consumption 
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/n3.png) 
 
 ### 3) Generate download locations for Daytime satellite imagery 
 
