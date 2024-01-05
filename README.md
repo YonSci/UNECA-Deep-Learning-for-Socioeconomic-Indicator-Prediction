@@ -63,15 +63,18 @@ The implementation of this approach includes important steps such as:
 
 The project used publicly available survey data from the World Bank Living Standards Measurement Study (LSMS) Microdata Library, Fourth Integrated Household Survey (IHS4), gathered through the National Statistical Office (NSO) of Malawi, during the period spanning from April 2016 to April 2017. The [Survey Data ](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/tree/main/Survey_Data) passed through several tasks such as data cleaning, grouping, standardizing consumption values, and calculating daily per capita consumption. A summary statistical analysis was conducted, and a map illustrating the per capita consumption across the surveyed areas in Malawi was generated.
 
-## Daily Consumption per Capita for Malawi for 2016
+#### Daily Consumption per Capita for Malawi for 2016
 
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/Daily_Per_Capita_Consumption_Malawi_Year_2016.png)   
 
-## Nightlight and Consumption for Malawi for 2016
-![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/nightlight_consumtion.png) 
+#### Basic Summary Statistics​ 
 
-## Cluster Boxes
-![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/Cluster_box.png)  
+![Alt text]()   
+
+#### Distributions of Consumption per capita
+
+![Alt text]()   
+
 
 ### 2) Nightlight satellite imagery acquisition, and processing
 
@@ -80,6 +83,12 @@ The project also utilized nighttime satellite imagery sourced from the NOAA Nati
 #### Sample Nightlight Image 
 
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/nightlight.png)  
+
+#### Nightlight and Consumption for Malawi for 2016
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/nightlight_consumtion.png) 
+
+#### Cluster Boxes
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/Cluster_box.png)  
 
 
 ### 3) Generate download locations for Daytime satellite imagery 
