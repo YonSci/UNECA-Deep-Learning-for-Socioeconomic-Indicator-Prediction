@@ -121,7 +121,7 @@ For a detailed implementation procedure, go through [Generate_Image_Download_Loc
 ![Alt text]() 
 
 #### Download Locations
-![Alt text]() 
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/generate_down_loc.png) 
 
 ### 4) Create nightlight bins/labels
 
