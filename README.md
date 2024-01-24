@@ -131,15 +131,21 @@ Within our dataset, the number of nightlight values having zero is notably highe
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/down_sampling.png)  
 
-### 5) Create nightlight bins/labels
+### 5) Create nightlight bins and label the daytime satellite imagery
 
-The Gaussian Mixture Model is used to establish nightlight bins/labels to classify the daytime satellite imagery into three categories based on nighttime values. The GMM-predicted cutoff values of 0.020 and 0.376 delineate a low nightlight bin, a medium nightlight bin, and a high nightlight bin. The respective percentages of daytime satellite imagery within each bin are 16,800 (49.55%), 10,250 (30.23%), and 6,850 (20.20%). This leads to a cumulative image count of 33,900.
+The Gaussian Mixture Model is used to establish nightlight bins/labels to classify the daytime satellite imagery into three categories based on nighttime values. The GMM-predicted cutoff values of 0.020 and 0.376 delineate a low nightlight bin, a medium nightlight bin, and a high nightlight bin. 
+
+#### Steps:
+
+ ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/classify_nightlight_bin2.png)  
+
+The respective percentages of daytime satellite imagery within each bin are 16,800 (49.55%), 10,250 (30.23%), and 6,850 (20.20%). 
 
 #### Sample Labeled Imagery
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/label_low_mid_hight.png)   
  
-### 5) Daytime satellite imagery acquisition and processing
+### 6) Daytime satellite imagery acquisition and processing
 
 The acquisition of high-resolution daytime satellite imagery is performed using the Planet API, which provides images specifically for research and academic purposes. The Planet Scope (PSScene) images have a spatial resolution ranging from 3.7 to 4.1 meters, later resampled to 3 meters for practical use. The process of obtaining Planet Imagery encompasses a series of steps. Initially, we set up the API Key in Planet Explorer. Following this, we apply essential filters such as geometry, date, and cloud filters to download the images properly. The download locations (image latitude and longitude) derived from previous steps serve as inputs for image retrieval, incorporating additional parameters like a zoom level of 14 and a maximum cloud filter of 0.05 (5%). The image acquisition spans the period from 2016 to 2017, culminating in a total of 33,900 downloaded images.
 
