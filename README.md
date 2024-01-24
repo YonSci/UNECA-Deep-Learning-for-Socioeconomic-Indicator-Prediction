@@ -123,13 +123,13 @@ For a detailed implementation procedure, go through [Generate_Image_Download_Loc
 #### Download Locations
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/generate_down_loc.png) 
 
-### 4) Undersampe to Avoid Bias​ 
+### 4) Undersamping to avoid nightlight values class bias​ 
 
 Within our dataset, the number of nightlight values having zero is notably higher, potentially causing an imbalance in the data distribution. The objective is to address this by undersampling or reducing instances from areas with zero or minimal nightlight data, aiming to mitigate class imbalance. This approach introduces diversity into the model by selectively removing rows associated with zero nightlights until the target fraction is achieved.
 
 #### Steps:
 
- ![Alt text]()  
+ ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/down_sampling.png)  
 
 ### 5) Create nightlight bins/labels
 
