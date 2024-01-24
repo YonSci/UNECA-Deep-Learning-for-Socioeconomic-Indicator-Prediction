@@ -127,10 +127,11 @@ For a detailed implementation procedure, go through [Generate_Image_Download_Loc
 
 Within our dataset, the number of nightlight values having zero is notably higher, potentially causing an imbalance in the data distribution. The objective is to address this by undersampling or reducing instances from areas with zero or minimal nightlight data, aiming to mitigate class imbalance. This approach introduces diversity into the model by selectively removing rows associated with zero nightlights until the target fraction is achieved.
 
+For a detailed implementation of the undersampling, go through [Generate_Image_Download_Locations.ipynb](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Scripts/Generate_Image_Download_Locations.ipynb) 
+
 #### Steps:
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/down_sampling.png)  
-
 
 ### 5) Daytime satellite imagery acquisition and processing
 
@@ -145,6 +146,8 @@ The acquisition of high-resolution daytime satellite imagery is performed using 
 ### 6) Create nightlight bins and label the daytime satellite imagery
 
 The Gaussian Mixture Model is used to establish nightlight bins/labels to classify the daytime satellite imagery into three categories based on nighttime values. The GMM-predicted cutoff values of 0.020 and 0.376 delineate a low nightlight bin, a medium nightlight bin, and a high nightlight bin. 
+
+For a detailed implementation of the undersampling, go through [Nightlights_bins.ipynb](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Scripts/Nightlights_bins.ipynb) 
 
 #### Steps:
 
