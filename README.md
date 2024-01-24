@@ -153,8 +153,6 @@ For a detailed implementation of the undersampling, go through [Nightlights_bins
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/classify_nightlight_bin2.png)  
 
-The respective percentages of daytime satellite imagery within each bin are 16,800 (49.55%), 10,250 (30.23%), and 6,850 (20.20%). 
-
 #### Labeled Clusters 
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/classify_nightlight_bin3.png)  
