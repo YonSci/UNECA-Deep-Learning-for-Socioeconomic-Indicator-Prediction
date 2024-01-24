@@ -123,7 +123,15 @@ For a detailed implementation procedure, go through [Generate_Image_Download_Loc
 #### Download Locations
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/generate_down_loc.png) 
 
-### 4) Create nightlight bins/labels
+### 4) Undersampe to Avoid Bias​ 
+
+Within our dataset, the number of nightlight values having zero is notably higher, potentially causing an imbalance in the data distribution. The objective is to address this by undersampling or reducing instances from areas with zero or minimal nightlight data, aiming to mitigate class imbalance. This approach introduces diversity into the model by selectively removing rows associated with zero nightlights until the target fraction is achieved.
+
+#### Steps:
+
+ ![Alt text]()  
+
+### 5) Create nightlight bins/labels
 
 The Gaussian Mixture Model is used to establish nightlight bins/labels to classify the daytime satellite imagery into three categories based on nighttime values. The GMM-predicted cutoff values of 0.020 and 0.376 delineate a low nightlight bin, a medium nightlight bin, and a high nightlight bin. The respective percentages of daytime satellite imagery within each bin are 16,800 (49.55%), 10,250 (30.23%), and 6,850 (20.20%). This leads to a cumulative image count of 33,900.
 
