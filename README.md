@@ -113,12 +113,12 @@ For a detailed implementation procedure, go through [Processing_Nighttime_Satell
 
 ### 3) Generate download locations for Daytime satellite imagery 
 
-We created download locations for daytime satellite images using a combination of systematic and stochastic sampling methods within cluster bounding boxes. Specifically, we generated 50 download locations per cluster, forming a grid of 49 uniformly spaced points (7x7) within the bounding box and adding 1 point through random sampling within the same box. This approach ensures diverse download locations for daytime satellite images. Subsequently, for each set of 50 points, we compiled the image name, image latitude, and image longitude, appending them to the data frame.
+We created download locations for daytime satellite images using a combination of **systematic** and **stochastic** sampling methods within cluster bounding boxes. Specifically, we generated 50 download locations per cluster, forming a grid of 49 uniformly spaced points (7x7) within the bounding box and adding 1 point through random sampling within the same box. This approach ensures diverse download locations for daytime satellite images. Subsequently, for each set of 50 points, we compiled the image name, image latitude, and image longitude, appending them to the data frame.
 
 For a detailed implementation procedure, go through [Generate_Image_Download_Locations.ipynb](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Scripts/Generate_Image_Download_Locations.ipynb)
 
 #### Steps:
-![Alt text]() 
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/download_location.png) 
 
 #### Download Locations
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/generate_down_loc.png) 
