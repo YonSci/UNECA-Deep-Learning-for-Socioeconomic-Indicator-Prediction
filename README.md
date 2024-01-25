@@ -1,6 +1,6 @@
-# Investigating Machine Learning/Deep Learning Approaches for Predicting Socioeconomic Indicators through Transfer Learning:
-# A Fusion of Satellite Imagery and Survey Data:
-# 
+# Unveiling the Potential of Transfer Learning in Machine Learning and Deep Learning Modes for Socioeconomic Indicators Prediction (Consumption Expenditure) in Malawi, 2016.
+
+# Incorporating Survey Information into Satellite Imagery
 
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/intro_im.png)   
 
@@ -22,7 +22,7 @@ By addressing these challenges, organizations and researchers can develop more a
 
 ## Objective 🎯
 
-The primary aim of this project is to integrate **survey data**,  **nighttime satellite imagery**, and  **daytime high-resolution satellite imagery**, leveraging **machine learning/deep Learning** methodologies to forecast **socioeconomic indicators** using  a reproducible framework utilizing open-source tools and resources (i.e. Consumption expenditure  for Malawi for the year 2016).​
+The primary aim of this project is to integrate **survey data**,  **nighttime satellite imagery**, and  **daytime high-resolution satellite imagery**, leveraging **machine learning/deep Learning** methodologies to forecast **socioeconomic indicators** using  a reproducible framework utilizing open-source tools and resources (i.e. Consumption expenditure for Malawi for the year 2016).​
 
 ### Specific Objectives
 
