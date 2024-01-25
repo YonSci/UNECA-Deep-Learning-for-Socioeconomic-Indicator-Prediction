@@ -224,9 +224,18 @@ These models are renowned for their capabilities in **feature extraction** and *
 
 1) **Locate Image Data Directory:**: Identify the directory containing image data (`data_dir`) previously created for the task.
   
-3) **Download Pre-trained Models (VGG Models):**: Obtain pre-trained models, particularly VGG models, needed for the task.
+2) **Download Pre-trained Models (VGG Models):**: Obtain pre-trained models, particularly VGG models, needed for the task. Link: https://pytorch.org/vision/main/models/vgg.html
   
-4) **Set and Initialize Pre-trained Model:**: Configure and initialize the pre-trained model with its initial parameters.
+3) **Set and Initialize Pre-trained Model:**: Configure and initialize the pre-trained model with its initial parameters.
+
+   | Parameter               | Value         |
+|-------------------------|---------------|
+| Model name              | vgg11_bn, vgg16_bn, vgg19_bn |
+| Image classes           | 3             |
+| Batch size              | 8             |
+| Number of epochs        | 30            |
+| Feature extracting flag | True          |
+| Input size              | 224x224x3     |
   
 5) **Apply Image Transformation/Augmentation:**: Implement image transformation and augmentation techniques to enhance the variety and quality of training data.
    - image flipping
@@ -244,24 +253,15 @@ These models are renowned for their capabilities in **feature extraction** and *
   - momentum of 0.1
   - learning rate of 1e-4
   
-10) **Define Loss Function:**: Set loss function  **Categorical Cross Entropy (CCE)** to quantify the difference between predicted and actual values.
+9) **Define Loss Function:**: Set loss function  **Categorical Cross Entropy (CCE)** to quantify the difference between predicted and actual values.
 
-11) **Train the model**: Using all previously defined configurations such as initial parameters, image transformation, image datasets, data loaders, specified GPUs, optimizer function,  and loss function.
+10) **Train the model**: Using all previously defined configurations such as initial parameters, image transformation, image datasets, data loaders, specified GPUs, optimizer function,  and loss function.
 
-12) **Save the Model:**: Save the trained model for future use or deployment.
+11) **Save the Model:**: Save the trained model for future use or deployment.
    
-13) **Evaluate the Model:**: Assess the model's performance using accuracy metrics to measure its effectiveness on the validation dataset.
+12) **Evaluate the Model:**: Assess the model's performance using accuracy metrics to measure its effectiveness on the validation dataset.
 
 
-- The training process begins with the following batch size, epochs, and output classes.
-  
-| Parameter      | Value |
-|----------------|-------|
-| Batch Size     | 8     |
-| Epochs         | 30    |
-| Output Classes | 3     |
-
-- 
 ## Models and their accuracy in classifying daytime satellite images into predefined nightlight categories or labels
 
 ### Training and Validation Loss
