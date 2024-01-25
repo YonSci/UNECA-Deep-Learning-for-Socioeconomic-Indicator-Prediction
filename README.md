@@ -115,7 +115,7 @@ For a detailed implementation procedure, go through [Processing_Nighttime_Satell
 
 ### 3) Generate download locations for Daytime satellite imagery 
 
-We created download locations for daytime satellite images using a combination of **systematic** and **stochastic** sampling methods within cluster bounding boxes. Specifically, we generated 50 download locations per cluster, forming a grid of 49 uniformly spaced points (7x7) within the bounding box and adding 1 point through random sampling within the same box. This approach ensures diverse download locations for daytime satellite images. Subsequently, for each set of 50 points, we compiled the image name, image latitude, and image longitude, appending them to the data frame.
+We created download locations for daytime satellite images using a combination of **systematic** and **stochastic** sampling methods within cluster bounding boxes. Specifically, we generated 50 download locations per cluster, forming a grid of 49 uniformly spaced points (7x7) within the bounding box and adding 1 point through random sampling within the same box. This approach ensures diverse download locations for daytime satellite images. Subsequently, for each set of 50 points, we compiled the image name, image latitude, and image longitude, appending them to the data frame. A total of **39,000** image download locations have been generated. 
 
 For a detailed implementation procedure, go through [Generate_Image_Download_Locations.ipynb](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Scripts/Generate_Image_Download_Locations.ipynb)
 
@@ -129,7 +129,7 @@ For a detailed implementation procedure, go through [Generate_Image_Download_Loc
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/generate_down_loc.png) 
 
 ### 4) Undersamping to avoid nightlight values class bias​ 
-Within our dataset, the number of nightlight values having zero is notably higher, potentially causing an imbalance in the data distribution. The objective is to address this by undersampling or reducing instances from areas with zero or minimal nightlight data, aiming to mitigate class imbalance. This approach introduces diversity into the model by selectively removing rows associated with zero nightlights until the target fraction is achieved.
+Within our dataset, the number of nightlight values having zero is notably higher, potentially causing an imbalance in the data distribution. The objective is to address this by undersampling or reducing instances from areas with zero or minimal nightlight data, aiming to mitigate class imbalance. This approach introduces diversity into the model by selectively removing rows associated with zero nightlights until the target fraction is achieved. A total of **33,900** image download locations have been left after performing the under-sampling.
 
 For a detailed implementation of the undersampling, go through [Generate_Image_Download_Locations.ipynb](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Scripts/Generate_Image_Download_Locations.ipynb) 
 
