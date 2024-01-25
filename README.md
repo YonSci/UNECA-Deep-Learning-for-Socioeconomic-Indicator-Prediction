@@ -379,6 +379,8 @@ On the [issues](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-
 1) **Yonas Mersha**, Data Science Consultant | African Centre for Statistics (ACS) |  United Nations Economic Commission for Africa (UNECA)
  
 2) **Issoufou Seidou Sanda**, Principal Statistician | African Centre for Statistics (ACS) |  United Nations Economic Commission for Africa (UNECA)
+
+3) **ANJANA DUBE**, Senior Regional Advisor | African Centre for Statistics (ACS) |  United Nations Economic Commission for Africa (UNECA)
  
 ## Acknowledgments 
 
