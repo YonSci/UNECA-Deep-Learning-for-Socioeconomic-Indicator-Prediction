@@ -122,8 +122,8 @@ For a detailed implementation procedure, go through [Generate_Image_Download_Loc
 
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/download_location.png) 
 
-#### Download Location Table
-![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/download_location3.png) 
+#### Download Location Dataframe
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/download_location4.png) 
 
 #### Download Location Map
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/generate_down_loc.png) 
@@ -136,6 +136,9 @@ For a detailed implementation of the undersampling, go through [Generate_Image_D
 #### Steps:
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/down_sampling.png)  
+
+ #### Download Location Undersamped Dataframe 
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/download_location3.png) 
 
 ### 5) Daytime satellite imagery acquisition and processing
 
