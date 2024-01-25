@@ -166,11 +166,16 @@ For a detailed implementation of the undersampling, go through [Nightlights_bins
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/classify_nightlight_bin2.png)  
 
-#### Labeled Datafrmate 
+
+#### Labeled Dataframre  
+
+ ![Alt text]() 
+
+#### Labeled Clusters  
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/classify_nightlight_bin3.png)  
 
-#### Labeled daytime satellite images
+#### Labeled Satellite Images
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/label_low_mid_hight.png)   
  
