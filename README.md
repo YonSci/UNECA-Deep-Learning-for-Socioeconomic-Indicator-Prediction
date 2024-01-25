@@ -1,4 +1,4 @@
-# Unveiling the Potential of Transfer Learning in Machine Learning and Deep Learning Modes for Socioeconomic Indicators Prediction (Consumption Expenditure) in Malawi, 2016.
+# Unveiling the Potential of Transfer Learning in Machine Learning and Deep Learning Modes for Socioeconomic Indicators Prediction (Consumption Expenditure) in Malawi, 2016
 
 # Incorporating Survey Information into Satellite Imagery
 
