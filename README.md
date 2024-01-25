@@ -376,21 +376,21 @@ On the [issues](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-
 
 ## Contact
 
-**Yonas Mersha**, Data Science Consultant | African Centre for Statistics (ACS) |  United Nations Economic Commission for Africa (UNECA)
+1) **Yonas Mersha**, Data Science Consultant | African Centre for Statistics (ACS) |  United Nations Economic Commission for Africa (UNECA)
  
-**Issoufou Seidou Sanda**, Principal Statistician | African Centre for Statistics (ACS) |  United Nations Economic Commission for Africa (UNECA)
+2) **Issoufou Seidou Sanda**, Principal Statistician | African Centre for Statistics (ACS) |  United Nations Economic Commission for Africa (UNECA)
  
 ## Acknowledgments 
 
-This research project  has been supported by **RCTP project**. 
-
-Special thanks to Jatin Mathur for sharing the create_space, add_nightlights, generate_download_locations, drop_zeros functions, and other code snippets on GitHub. We have integrated certain code snippets, tailoring them to suit the specific requirements of our project.
+1) This research project  has been supported by **RCTP project**.
+  
+2) Special thanks to Jatin Mathur for sharing the create_space, add_nightlights, generate_download_locations, drop_zeros functions, and other code snippets on GitHub. We have integrated certain code snippets, tailoring them to suit the specific requirements of our project.
 
 ## References
 
 ### World Bank's Living Standards Measurement Study (LSMS) survey data 
 
-National Statistical Office. Malawi - Fourth Integrated Household Survey 2016-2017, Ref. MWI_2016_IHS-IV_v02_M. Dataset downloaded from World Bank Microdata Library: [https://microdata.worldbank.org/index.php/catalog/2936/related-materials].  
+National Statistical Office. Malawi - Fourth Integrated Household Survey 2016-2017, Ref. MWI_2016_IHS-IV_v02_M. Dataset downloaded from World Bank Microdata Library: https://microdata.worldbank.org/index.php/catalog/2936/related-materials.  
 
 
 ### VIIRS nighttime satellite imagery 
@@ -401,17 +401,17 @@ C.D. Elvidge, K. Baugh, M. Zhizhin, F. C. Hsu, and T. Ghosh, “VIIRS night-time
 
 ### Planet Satellite Imagery 
 
-Planet Labs PBC. (2023). Planet Application Program Interface: In Space for Life on Earth. Retrieved from [https://api.planet.com]
+Planet Labs PBC. (2023). Planet Application Program Interface: In Space for Life on Earth. Retrieved from https://api.planet.com
 
 ## Related Works 
 
-Jatin Mathur, Predicting Poverty Replication, GitHub: [https://github.com/jmather625/predicting-poverty-replication]  
+Jatin Mathur, Predicting Poverty Replication, GitHub: https://github.com/jmather625/predicting-poverty-replication
 
 
-Neal Jean, Marshall Burke, Michael Xie, W. Matt Davis, David Lobell, and Stefano Ermon. 2016. "Combining satellite imagery and machine learning to predict poverty." Science 353, 6301. Combining satellite imagery and machine learning to predict poverty. GitHub: [https://github.com/nealjean/predicting-poverty]
+Neal Jean, Marshall Burke, Michael Xie, W. Matt Davis, David Lobell, and Stefano Ermon. 2016. "Combining satellite imagery and machine learning to predict poverty." Science 353, 6301. Combining satellite imagery and machine learning to predict poverty. GitHub: https://github.com/nealjean/predicting-poverty
 
 ## Related projects 
 
-Link: [https://sustain.stanford.edu/predicting-poverty]
+Link: https://sustain.stanford.edu/predicting-poverty
 
-Link: [https://www.science.org/content/article/satellite-images-can-map-poverty]
+Link: https://www.science.org/content/article/satellite-images-can-map-poverty
