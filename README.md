@@ -122,8 +122,6 @@ For a detailed implementation procedure, go through [Generate_Image_Download_Loc
 #### Steps:
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/download_location.png) 
 
-![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/download_location.png) 
-
 #### Download Location Dataframe
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/download_location4.png) 
 
