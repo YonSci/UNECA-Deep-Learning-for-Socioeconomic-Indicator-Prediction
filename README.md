@@ -222,16 +222,37 @@ These models are renowned for their capabilities in **feature extraction** and *
 #### Steps:
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/Train_image.png)   
 
+1) **Locate Image Data Directory:**: Identify the directory containing image data (`data_dir`) previously created for the task.
+  
+3) **Download Pre-trained Models (VGG Models):**: Obtain pre-trained models, particularly VGG models, needed for the task.
+  
+4) **Set and Initialize Pre-trained Model:**: Configure and initialize the pre-trained model with its initial parameters.
+  
+5) **Apply Image Transformation/Augmentation:**: Implement image transformation and augmentation techniques to enhance the variety and quality of training data.
+   - image flipping
+   - resizing
+   - cropping
+   - normalization
+   - conversion to PyTorch tensors
+6) **Create PyTorch Image Datasets:**: Develop PyTorch datasets for handling image data, incorporating the specified transformations.
+  
+7) **Create PyTorch Dataloader:**: Set up a PyTorch dataloader to efficiently load and batch the image data for model training.
+  
+8) **Check CPU and GPU Availability:**: Verify the availability of both CPU and GPU resources. Send the model to the appropriate device based on availability.
+  
+9) **Define Optimizer Function:**: Set the optimizer function, **Stochastic Gradient Descent (SGD)**, to update model parameters during training.
+  - momentum of 0.1
+  - learning rate of 1e-4
+  
+10) **Define Loss Function:**: Set loss function  **Categorical Cross Entropy (CCE)** to quantify the difference between predicted and actual values.
+
+11) **Train the model**: Using all previously defined configurations such as initial parameters, image transformation, image datasets, data loaders, specified GPUs, optimizer function,  and loss function.
+
+12) **Save the Model:**: Save the trained model for future use or deployment.
+   
+13) **Evaluate the Model:**: Assess the model's performance using accuracy metrics to measure its effectiveness on the validation dataset.
 
 
-
-
-- The modeling process begins with model initialization, downloading pre-trained models, and configuring their initial parameters.
-- We tailor the model architecture to our task, incorporating RGB Planet Scope satellite images (3 channels) with a width and height of 224 by 224 dimensions. 
-- Data augmentation techniques are then applied to enhance dataset variability, including image flipping, resizing, cropping, normalization, and conversion to PyTorch tensors.
-- Data loaders are established for efficient data handling during training and validation.
-- The Stochastic Gradient Descent (SGD) optimizer function is employed with a momentum of 0.1 and a learning rate of 1e-4.
-- The Categorical Cross Entropy (CCE) loss function is chosen for its suitability in multi-class classification problems.  
 - The training process begins with the following batch size, epochs, and output classes.
   
 | Parameter      | Value |
@@ -240,7 +261,7 @@ These models are renowned for their capabilities in **feature extraction** and *
 | Epochs         | 30    |
 | Output Classes | 3     |
 
-- Subsequently, the model's performance is evaluated using the following accuracy metrics: Train Loss, Valid Loss, and Accuracy.
+- 
 ## Models and their accuracy in classifying daytime satellite images into predefined nightlight categories or labels
 
 ### Training and Validation Loss
