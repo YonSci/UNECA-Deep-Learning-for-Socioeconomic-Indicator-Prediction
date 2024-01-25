@@ -196,16 +196,19 @@ The preparation of the training and validation dataset involves employing a **st
 
 ### 8) Train variants of Convolutional Neural Network (CNN) models using a transfer learning approach
 
-This project uses a novel deep-learning approach through a transfer learning method to predict consumption. Transfer learning is a technique that involves using a pre-trained model as a starting point for a new task. The pre-trained model has already learned to recognize many different features and can be used as a starting point for training a new model on a related task. It involves leveraging knowledge gained from one task to be repurposed for a different but related task. In this particular case, we are using nighttime light as a proxy for socioeconomic indicators. Our objective is to predict the probability class of a given daytime satellite image and assign it to the appropriate nightlight bin category, simultaneously learning features that are useful for consumption prediction. 
+This project uses a novel **deep-learning** approach through a **transfer learning** method to predict consumption. Transfer learning is a technique that involves using a **pre-trained model** as a starting point for a new task. The pre-trained model has already learned to recognize many different features and can be used as a starting point for training a new model on a related task. It involves leveraging knowledge gained from one task to be repurposed for a different but related task. In this particular case, we are using nighttime light as a proxy for socioeconomic indicators. 
 
-The training process involves a series of steps using variants of CNN pre-trained [Virtual Geometry Group (VGG) models](https://pytorch.org/vision/main/models/vgg.html) The project employs very deep CNNs for Large-Scale Image Recognition, such as VGG-11, VGG-16, and VGG-19. 
+Our objectives are:
 
+ 1) Predict the **probability class** of a given **satellite image** and assign the appropriate nightlight bin category
+ 2) Simultaneously learn and **extract features** that are useful for consumption prediction 
+
+The training process involves a series of steps using variants of CNN pre-trained [Virtual Geometry Group (VGG) models] (https://pytorch.org/vision/main/models/vgg.html) such as such as VGG-11, VGG-16, and VGG-19.
 
 #### VGG Model Architecture
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/vgg_model.png)   
 
-
-The models used in this project are very Deep Convolutional Networks for Large-Scale Image Recognition such as **VGG-11**, **VGG-16**, and **VGG-19**. These models are renowned for their capabilities in feature extraction and classification. The VGG models are known for their depth and their ability to capture intricate features from images, making them suitable for a wide range of image classification tasks. These models have been widely used in various applications, including image classification, object recognition, and image segmentation. These models were initially trained on the [ImageNet](https://image-net.org/update-mar-11-2021.php) dataset that contains over 1.2 million images distributed across 1,000 classes. 
+These models are renowned for their capabilities in **feature extraction** and **classification**. These models have been widely used in various applications, including **image classification**, **object recognition**, and **image segmentation**. These models were initially trained on the [ImageNet](https://image-net.org/update-mar-11-2021.php) dataset that contains over **1.2 million** images distributed across **1,000** classes. 
 
 
 | Model      | Convolutional Layers | Fully Connected Layers | Parameters (approx.) | Pooling Layers  | Input Size | Activation Function | Pre-training   | Kernel Size | Stride | Padding |
