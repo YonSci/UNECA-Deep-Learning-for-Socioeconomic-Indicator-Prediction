@@ -186,6 +186,9 @@ The preparation of the training and validation dataset involves employing a **st
   - 80% of the data allocated for training
   - 20% for validation 
 
+#### Steps:
+
+ ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/data_split.png)  
 
 ## Training and validation datasets
 
