@@ -228,16 +228,18 @@ These models are renowned for their capabilities in **feature extraction** and *
   
 3) **Set and Initialize Pre-trained Model:**: Configure and initialize the pre-trained model with its initial parameters.
 
-   | Parameter               | Value         |
-|-------------------------|---------------|
-| Model name              | vgg11_bn, vgg16_bn, vgg19_bn |
-| Image classes           | 3             |
-| Batch size              | 8             |
-| Number of epochs        | 30            |
-| Feature extracting flag | True          |
-| Input size              | 224x224x3     |
+
+| Parameter               | Value                         |
+|-------------------------|-------------------------------|
+| Model name              | vgg11_bn, vgg16_bn, vgg19_bn  |
+| Image classes           | 3                             |
+| Batch size              | 8                             |
+| Number of epochs        | 30                            |
+| Feature extracting flag | True                          |               
+| Input size              | 224x224x3                     |
+
   
-5) **Apply Image Transformation/Augmentation:**: Implement image transformation and augmentation techniques to enhance the variety and quality of training data.
+4) **Apply Image Transformation/Augmentation:**: Implement image transformation and augmentation techniques to enhance the variety and quality of training data.
    - image flipping
    - resizing
    - cropping
