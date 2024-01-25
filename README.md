@@ -137,6 +137,12 @@ For a detailed implementation of the undersampling, go through [Generate_Image_D
 
 The acquisition of high-resolution daytime satellite imagery is performed using the Planet API, which provides images specifically for research and academic purposes. The Planet Scope (PSScene) images have a spatial resolution ranging from 3.7 to 4.1 meters, later resampled to 3 meters for practical use. The process of obtaining Planet Imagery encompasses a series of steps. Initially, we set up the API Key in Planet Explorer. Following this, we apply essential filters such as geometry, date, and cloud filters to download the images properly. The download locations (image latitude and longitude) derived from previous steps serve as inputs for image retrieval, incorporating additional parameters like a zoom level of 14 and a maximum cloud filter of 0.05 (5%). The image acquisition spans the period from 2016 to 2017, culminating in a total of 33,900 downloaded images.
 
+#### Steps:
+
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/download_planet.png)   
+
+For downloading the Planet daytime satellite imagery, go through [Download_satellite_images_Planet.ipynb](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Scripts/Download_satellite_images_Planet.ipynb) 
+
 #### Sample Planet Images 
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/Planet_imag.png)   
