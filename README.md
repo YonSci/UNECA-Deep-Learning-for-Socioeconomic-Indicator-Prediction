@@ -171,7 +171,7 @@ For a detailed implementation of the undersampling, go through [Nightlights_bins
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/labled_table.png) 
 
-#### Labeled Clusters  
+#### Labeled Cluster Map
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/classify_nightlight_bin3.png)  
 
