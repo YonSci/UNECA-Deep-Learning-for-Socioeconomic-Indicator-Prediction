@@ -190,7 +190,7 @@ The preparation of the training and validation dataset involves employing a **st
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/data_split.png)  
 
-## Training and validation datasets
+## Training and Validation Sets
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/train_valid.png)  
 
