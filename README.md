@@ -169,7 +169,7 @@ For a detailed implementation of the undersampling, go through [Nightlights_bins
 
 #### Labeled Dataframre  
 
- ![Alt text]() 
+ ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/labled_table.png) 
 
 #### Labeled Clusters  
 
