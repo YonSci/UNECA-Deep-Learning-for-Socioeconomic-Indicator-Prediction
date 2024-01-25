@@ -222,12 +222,12 @@ These models are renowned for their capabilities in **feature extraction** and *
 #### Steps:
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/Train_image.png)   
 
+
 1) **Locate Image Data Directory:**: Identify the directory containing image data (`data_dir`) previously created for the task.
   
-2) **Download Pre-trained Models (VGG Models):**: Obtain pre-trained models, particularly VGG models, needed for the task. Link: https://pytorch.org/vision/main/models/vgg.html
+2) **Download Pre-trained Models (VGG Models)**: Obtain pre-trained models, particularly VGG models, needed for the task. Link: https://pytorch.org/vision/main/models/vgg.html
   
-3) **Set and Initialize Pre-trained Model:**: Configure and initialize the pre-trained model with its initial parameters.
-
+3) **Set and Initialize Pre-trained Model**: Configure and initialize the pre-trained model with its initial parameters.
 
 | Parameter               | Value                         |
 |-------------------------|-------------------------------|
@@ -245,13 +245,13 @@ These models are renowned for their capabilities in **feature extraction** and *
    - cropping
    - normalization
    - conversion to PyTorch tensors
-6) **Create PyTorch Image Datasets:**: Develop PyTorch datasets for handling image data, incorporating the specified transformations.
+5) **Create PyTorch Image Datasets:**: Develop PyTorch datasets for handling image data, incorporating the specified transformations.
   
-7) **Create PyTorch Dataloader:**: Set up a PyTorch dataloader to efficiently load and batch the image data for model training.
+6) **Create PyTorch Dataloader:**: Set up a PyTorch dataloader to efficiently load and batch the image data for model training.
   
-8) **Check CPU and GPU Availability:**: Verify the availability of both CPU and GPU resources. Send the model to the appropriate device based on availability.
+7) **Check CPU and GPU Availability:**: Verify the availability of both CPU and GPU resources. Send the model to the appropriate device based on availability.
   
-9) **Define Optimizer Function:**: Set the optimizer function, **Stochastic Gradient Descent (SGD)**, to update model parameters during training.
+8) **Define Optimizer Function:**: Set the optimizer function, **Stochastic Gradient Descent (SGD)**, to update model parameters during training.
   - momentum of 0.1
   - learning rate of 1e-4
   
