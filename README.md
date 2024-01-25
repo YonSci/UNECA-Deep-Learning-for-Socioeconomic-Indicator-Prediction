@@ -158,7 +158,7 @@ For downloading the Planet daytime satellite imagery, go through [Download_satel
 
 ### 6) Create nightlight bins and label the daytime satellite imagery
 
-The Gaussian Mixture Model is used to establish nightlight bins/labels to classify the daytime satellite imagery into three categories based on nighttime values. The GMM-predicted cutoff values of 0.020 and 0.376 delineate a low nightlight bin, a medium nightlight bin, and a high nightlight bin. 
+The Gaussian Mixture Model is used to establish nightlight bins/labels to cluster the daytime satellite imagery into three categories based on nighttime values. The GMM-predicted cutoff values of **0.020** and **0.376** delineate a low nightlight bin, a medium nightlight bin, and a high nightlight bin. 
 
 For a detailed implementation of the undersampling, go through [Nightlights_bins.ipynb](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Scripts/Nightlights_bins.ipynb) 
 
@@ -166,7 +166,7 @@ For a detailed implementation of the undersampling, go through [Nightlights_bins
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/classify_nightlight_bin2.png)  
 
-#### Labeled Clusters 
+#### Labeled Datafrmate 
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/classify_nightlight_bin3.png)  
 
