@@ -142,7 +142,7 @@ For a detailed implementation of the undersampling, go through [Generate_Image_D
 
 ### 5) Daytime satellite imagery acquisition and processing
 
-The acquisition of high-resolution daytime satellite imagery is performed using the Planet API, which provides images specifically for research and academic purposes. The **Planet Scope (PSScene)** images have a spatial resolution ranging from 3.7 to 4.1 meters, later resampled to **3 meters** for practical use. The process of obtaining Planet Imagery encompasses a series of steps. Initially, we set up the API Key in Planet Explorer. Following this, we apply essential filters such as geometry, date, and cloud filters to download the images properly. The download locations (image latitude and longitude) derived from previous steps serve as inputs for image retrieval, incorporating additional parameters like a zoom level of 14 and a maximum cloud filter of 0.05 (5%). The image acquisition spans the period from 2016 to 2017, culminating in a total of 33,900 downloaded images.
+The acquisition of high-resolution daytime satellite imagery is performed using the Planet API, which provides images specifically for research and academic purposes. The **Planet Scope (PSScene)** images have a spatial resolution ranging from 3.7 to 4.1 meters, later resampled to **3 meters** for practical use. The process of obtaining Planet Imagery encompasses a series of steps. Initially, we set up the API Key in Planet Explorer. Following this, we apply essential filters such as geometry, date, and cloud filters to download the images properly. The download locations (image latitude and longitude) derived from previous steps serve as inputs for image retrieval, incorporating additional parameters like a zoom level of 14 and a maximum cloud filter of 0.05 (5%). The image acquisition spans the period from 2016 to 2017, culminating in a total of **33,900** downloaded images.
 
 #### Steps:
 
@@ -182,7 +182,7 @@ For a detailed implementation of the undersampling, go through [Nightlights_bins
 
 ### 7) Preparation of training and validation datasets
 
-The preparation of the training and validation dataset involves employing a **stratified train-validation split method**, ensuring that each cluster group has a random assignment of samples to the train-validation set. This approach mitigates potential sampling issues, preventing situations where certain clusters lack training-validation data and ensuring a consistent sampling distribution. Specifically, an 80-20 split is implemented, with 
+The preparation of the training and validation dataset involves employing a **stratified train-validation split method**, ensuring that each cluster group has a random assignment of samples to the train-validation set. This approach mitigates potential sampling issues, preventing situations where certain clusters lack training-validation data and ensuring a consistent sampling distribution. Specifically, an **80-20** split is implemented, with 
   - 80% of the data allocated for training
   - 20% for validation 
 
