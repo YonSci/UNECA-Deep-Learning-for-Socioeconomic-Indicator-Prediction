@@ -184,7 +184,9 @@ For a detailed implementation of the undersampling, go through [Nightlights_bins
 
 The preparation of the training and validation dataset involves employing a **stratified train-validation split method**, ensuring that each cluster group has a random assignment of samples to the train-validation set. This approach mitigates potential sampling issues, preventing situations where certain clusters lack training-validation data and ensuring a consistent sampling distribution. Specifically, an **80-20** split is implemented, with 
   - 80% of the data allocated for training
-  - 20% for validation 
+  - 20% for validation
+
+For a detailed preparation of training and validation datasets, go through [Prepare_training_validation_datasets.ipynb](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Scripts/Prepare_training_validation_datasets.ipynb) 
 
 #### Steps:
 
@@ -216,6 +218,13 @@ These models are renowned for their capabilities in **feature extraction** and *
 | VGG-11     | 8                    | 3                      | 132 million          | Max Pooling     | 224x224x3  | ReLU                | ImageNet       | 3 X 3      |   1     |   1     |
 | VGG-16     | 13                   | 3                      | 138 million          | Max Pooling     | 224x224x3  | ReLU                | ImageNet       | 3 X 3      |   1     |   1     |
 | VGG-19     | 16                   | 3                      | 144 million          | Max Pooling     | 224x224x3  | ReLU                | ImageNet       | 3 X 3      |   1     |   1     |
+
+#### Steps:
+ ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/Train_image.png)   
+
+
+
+
 
 - The modeling process begins with model initialization, downloading pre-trained models, and configuring their initial parameters.
 - We tailor the model architecture to our task, incorporating RGB Planet Scope satellite images (3 channels) with a width and height of 224 by 224 dimensions. 
