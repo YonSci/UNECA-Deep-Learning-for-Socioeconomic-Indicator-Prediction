@@ -184,7 +184,7 @@ For a detailed implementation of the undersampling, go through [Nightlights_bins
 
 The preparation of the training and validation dataset involves employing a **stratified train-validation split method**, ensuring that each cluster group has a random assignment of samples to the train-validation set. This approach mitigates potential sampling issues, preventing situations where certain clusters lack training-validation data and ensuring a consistent sampling distribution. Specifically, an 80-20 split is implemented, with 
   - 80% of the data allocated for training
-  - 20% for validation within each cluster
+  - 20% for validation 
 
 
 ## Training and validation datasets
