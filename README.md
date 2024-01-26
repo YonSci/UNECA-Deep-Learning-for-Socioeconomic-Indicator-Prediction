@@ -249,7 +249,7 @@ These models are renowned for their capabilities in **feature extraction** and *
 | Rearrange image dimensions                | Dimensions change from HxWxC to CxHxW (channels first).                                                              |
 
 
-5) **Create PyTorch Image Dataset:**: Develop PyTorch datasets for handling image data, incorporating the specified transformations.
+5) **Create PyTorch Image Dataset**: Develop PyTorch datasets for handling image data, incorporating the specified transformations.
   
 6) **Create PyTorch Dataloader**: Set up a PyTorch dataloader to efficiently load and batch the image data for model training.
   
