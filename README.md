@@ -238,7 +238,7 @@ These models are renowned for their capabilities in **feature extraction** and *
 | Feature extracting flag | True                          |               
 | Input size              | 224x224x3                     |
 
-4) **Apply Image Transformation/Augmentation:**: Implement image transformation techniques to enhance the variety and quality of training data.
+4) **Apply Image Transformation/Augmentation**:  to enhance the variety and quality of training data.
      
 | Processing Step                           | Description                                                                                                          |
 |--------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
