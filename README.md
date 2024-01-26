@@ -256,8 +256,11 @@ These models are renowned for their capabilities in **feature extraction** and *
 7) **Check CPU and GPU Availability**: Verify the availability of both CPU and GPU resources. Send the model to the appropriate device based on availability.
   
 8) **Define Optimizer Function**: Set the optimizer function, **Stochastic Gradient Descent (SGD)**, to update model parameters during training.
-  - momentum of 0.1
-  - learning rate of 1e-4
+
+| Hyperparameter       | Value    |
+|----------------------|----------|
+| Momentum             | 0.1      |
+| Learning Rate        | 1e-4     |
   
 9) **Define Loss Function**: Set loss function  **Categorical Cross Entropy (CCE)** to quantify the difference between predicted and actual values.
 
