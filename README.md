@@ -240,7 +240,7 @@ These models are renowned for their capabilities in **feature extraction** and *
 
 4) **Apply Image Transformation/Augmentation**:  to enhance the variety and quality of training data.
      
-| Processing Step                           | Description                                                                                                          |
+| Transformation Step                           | Description                                                                                                       |
 |--------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Image flipping                            | Flips the image horizontally.                                                                                        |
 | Image cropping/resizing                   | Resizes/crops the input image to the specified size.                                                                 |
