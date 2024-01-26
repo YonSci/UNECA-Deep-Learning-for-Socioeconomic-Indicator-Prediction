@@ -239,20 +239,23 @@ These models are renowned for their capabilities in **feature extraction** and *
 | Input size              | 224x224x3                     |
 
 4) **Apply Image Transformation/Augmentation:**: Implement image transformation techniques to enhance the variety and quality of training data.
-5) 
-   - Image flipping: Flips the image horizontally.
-   - Image cropping/resizing: Resizes/crop the input image to the specified size.
-   - Image Normalization: normalizes the input image by subtracting the mean value and dividing by the standard deviation [0.485, 0.456, 0.406], [0.229, 0.224, 0.225]
-   - Conversion to PyTorch tensors: converts the image from PIL (Python Imaging Library) format to a PyTorch tensor format
-   - Rearrange dimensions for CNN models: Dimensions change from HxWxC to CxHxW (channels first)
+     
+| Processing Step                           | Description                                                                                                          |
+|--------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Image flipping                            | Flips the image horizontally.                                                                                        |
+| Image cropping/resizing                    | Resizes/crops the input image to the specified size.                                                                 |
+| Image Normalization                       | Normalizes the input image by subtracting the mean value and dividing by the standard deviation [0.485, 0.456, 0.406], [0.229, 0.224, 0.225]. |
+| Conversion to PyTorch tensors              | Converts the image from PIL (Python Imaging Library) format to a PyTorch tensor format.                                |
+| Rearrange dimensions for CNN models        | Dimensions change from HxWxC to CxHxW (channels first).                                                              |
 
-6) **Create PyTorch Image Dataset:**: Develop PyTorch datasets for handling image data, incorporating the specified transformations.
+
+5) **Create PyTorch Image Dataset:**: Develop PyTorch datasets for handling image data, incorporating the specified transformations.
   
-7) **Create PyTorch Dataloader**: Set up a PyTorch dataloader to efficiently load and batch the image data for model training.
+6) **Create PyTorch Dataloader**: Set up a PyTorch dataloader to efficiently load and batch the image data for model training.
   
-8) **Check CPU and GPU Availability**: Verify the availability of both CPU and GPU resources. Send the model to the appropriate device based on availability.
+7) **Check CPU and GPU Availability**: Verify the availability of both CPU and GPU resources. Send the model to the appropriate device based on availability.
   
-9) **Define Optimizer Function**: Set the optimizer function, **Stochastic Gradient Descent (SGD)**, to update model parameters during training.
+8) **Define Optimizer Function**: Set the optimizer function, **Stochastic Gradient Descent (SGD)**, to update model parameters during training.
   - momentum of 0.1
   - learning rate of 1e-4
   
