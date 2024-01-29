@@ -207,7 +207,7 @@ Our objectives are:
 
 The training process involves a series of steps using variants of CNN pre-trained **Virtual Geometry Group (VGG)** models https://pytorch.org/vision/main/models/vgg.html such as such as VGG-11, VGG-16, and VGG-19.
 
-#### Genral VGG Model Architecture
+#### General VGG Model Architecture
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/vgg_model.png)   
 
 These models are renowned for their capabilities in **feature extraction** and **classification**. These models have been widely used in various applications, including **image classification**, **object recognition**, and **image segmentation**. These models were initially trained on the [ImageNet](https://image-net.org/update-mar-11-2021.php) dataset that contains over **1.2 million** images distributed across **1,000** classes. 
