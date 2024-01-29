@@ -273,18 +273,13 @@ These models are renowned for their capabilities in **feature extraction** and *
 10) **Train the model**: The model training involves executing all previously specified configurations, including initial parameters, image transformation, image datasets, data loaders, designated GPUs, optimizer function, and loss function.
 
 11) **Save the Model**: Save the trained model for future use or deployment.
+#### Models
+
+The trained models can be found in this Google Drive directory:
+
+[VGG11 Trained Model](https://drive.google.com/file/d/10LwaTNbOrOtUzcAj1g8TgE6WgWdCXjQn/view?usp=sharing)
    
 12) **Evaluate the Model**: Assess the model's performance using accuracy metrics to measure its effectiveness on the validation dataset.
-
-## Models and their accuracy in classifying daytime satellite images into predefined nightlight categories or labels
-
-### Training and Validation Loss
-
-![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/train-valid_loss.png)  
-
-### Training and Validation Accuracy
-
-![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/train_valid_acc.png)  
 
 | Model    | Train Loss | Valid Loss | Accuracy |
 |----------|------------|------------|----------|
@@ -292,12 +287,13 @@ These models are renowned for their capabilities in **feature extraction** and *
 | VGG16     | 0.5744     | 0.5284     | 0.7705   |
 | VGG19     | 0.5805     | 0.5175     | 0.7849   |
 
-- Finally, the trained model is saved for future use.
+### Plot for Training and Validation Loss
 
-#### Models
-The trained models can be found in this Google Drive directory:
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/train-valid_loss.png)  
 
-1) [VGG11 Trained Model](https://drive.google.com/file/d/10LwaTNbOrOtUzcAj1g8TgE6WgWdCXjQn/view?usp=sharing)
+### Plot for Training and Validation Accuracy
+
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/train_valid_acc.png)  
 
 ### 9) Feature extraction and aggregation
 
