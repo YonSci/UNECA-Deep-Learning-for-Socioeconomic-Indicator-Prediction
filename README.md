@@ -272,14 +272,15 @@ These models are renowned for their capabilities in **feature extraction** and *
 
 10) **Train the model**: The model training involves executing all previously specified configurations, including initial parameters, image transformation, image datasets, data loaders, designated GPUs, optimizer function, and loss function.
 
-11) **Save the Model**: Save the trained model for future use or deployment.
-#### Models
+11) **Save the Model**: The trained models are stored for future uses or deployment.
+ 
+#### Models: The trained models can be found in this Google Drive directory:
 
-The trained models can be found in this Google Drive directory:
-
-[VGG11 Trained Model](https://drive.google.com/file/d/10LwaTNbOrOtUzcAj1g8TgE6WgWdCXjQn/view?usp=sharing)
-   
-12) **Evaluate the Model**: Assess the model's performance using accuracy metrics to measure its effectiveness on the validation dataset.
+- [VGG11 Trained Model](https://drive.google.com/file/d/10LwaTNbOrOtUzcAj1g8TgE6WgWdCXjQn/view?usp=sharing)
+- [VGG16 Trained Model](https://drive.google.com/file/d/1rS05YsSy7U2D_lzbWQYzkR1uIzrGsesk/view?usp=sharing)
+- [VGG19 Trained Model](https://drive.google.com/file/d/1mud2po2YebVlZh-2jrG6q4AFC94m0Qr3/view?usp=sharing)
+ 
+12) **Evaluate the Model**: The table below displays the loss during both training and validation, including the accuracy of the model's performance.
 
 | Model    | Train Loss | Valid Loss | Accuracy |
 |----------|------------|------------|----------|
