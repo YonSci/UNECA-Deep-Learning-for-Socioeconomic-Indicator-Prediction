@@ -4,7 +4,7 @@
 
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/intro_im.png)   
 
-## Problem❓ jjdnjdnfjs
+## Problem❓
 
 1) The lack of reliable and continuous socioeconomic data in developing countries is a major obstacle to monitoring and evaluating sustainable development goals and making informed policy decisions. Obtaining frequent and reliable national-level statistics through surveys is both costly and labor-intensive, which poses a significant challenge for governmental and non-governmental organizations. 
 
