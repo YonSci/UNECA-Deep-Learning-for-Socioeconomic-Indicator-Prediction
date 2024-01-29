@@ -238,7 +238,7 @@ These models are renowned for their capabilities in **feature extraction** and *
 | Feature extracting flag | True                          |               
 | Input size              | 224x224x3     (H X W X C)     |
 
-4) **Apply Image Transformation/Augmentation**:  to enhance the variety and quality of training data.
+4) **Apply Image Transformation/Augmentation**:  To enhance the variety of training data (image).
      
 | Transformation Step                           | Description                                                                                                       |
 |--------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
@@ -249,13 +249,19 @@ These models are renowned for their capabilities in **feature extraction** and *
 | Rearrange Image Dimensions                | Dimensions change from HxWxC to CxHxW (channels first).                                                              |
 
 
-5) **Create PyTorch Image Dataset**: Develop PyTorch datasets for handling image data, incorporating the specified transformations.
+5) **Create PyTorch Image Dataset**: Constructing PyTorch datasets serves to streamline image loading, facilitate efficient memory usage, and seamlessly integrate the image transformation module. Additionally, it automatically assigns labels to images based on the subdirectory structure.
+
+6) **Create PyTorch Dataloader**: Set up a PyTorch data loader to divide the image dataset into batches for efficient training (Batching), randomize the order of data to prevent model bias (Shuffling), and accelerate data loading by fetching batches in parallel (Parallelizing Data Loading).
+
+| Parameter                          | Value         |
+|------------------------------------|---------------|
+| Batch Size                         | 3             |
+| Shuffling of the Data              | True          |
+| Number of Workers for Data Loading | 4             |  
+
+10) **Check CPU and GPU Availability**: Verify the availability of both CPU and GPU resources. Send the model to the appropriate device based on availability.
   
-6) **Create PyTorch Dataloader**: Set up a PyTorch dataloader to efficiently load and batch the image data for model training.
-  
-7) **Check CPU and GPU Availability**: Verify the availability of both CPU and GPU resources. Send the model to the appropriate device based on availability.
-  
-8) **Define Optimizer Function**: Set the optimizer function, **Stochastic Gradient Descent (SGD)**, to update model parameters during training.
+11) **Define Optimizer Function**: Set the optimizer function, **Stochastic Gradient Descent (SGD)**, to update model parameters during training.
 
 | Hyperparameter       | Value    |
 |----------------------|----------|
