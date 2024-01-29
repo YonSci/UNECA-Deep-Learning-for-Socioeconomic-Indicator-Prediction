@@ -231,12 +231,12 @@ These models are renowned for their capabilities in **feature extraction** and *
 
 | Parameter               | Value                         |
 |-------------------------|-------------------------------|
-| Model name              | vgg11_bn, vgg16_bn, vgg19_bn  |
-| Image classes           | 3                             |
+| Model names             | vgg11_bn, vgg16_bn, vgg19_bn |
+| Image classes           | 3  (low, medium, high)      |
 | Batch size              | 8                             |
 | Number of epochs        | 30                            |
 | Feature extracting flag | True                          |               
-| Input size              | 224x224x3                     |
+| Input size              | 224x224x3     (H X W X C)     |
 
 4) **Apply Image Transformation/Augmentation**:  to enhance the variety and quality of training data.
      
