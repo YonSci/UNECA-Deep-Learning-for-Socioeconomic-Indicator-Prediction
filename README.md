@@ -242,11 +242,11 @@ These models are renowned for their capabilities in **feature extraction** and *
      
 | Transformation Step                           | Description                                                                                                       |
 |--------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Image flipping                            | Flips the image horizontally.                                                                                        |
-| Image cropping/resizing                   | Resizes/crops the input image to the specified size.                                                                 |
+| Image Flipping                            | Flips the image horizontally.                                                                                        |
+| Image Cropping/Resizing                   | Resizes/crops the input image to the specified size.                                                                 |
 | Image Normalization                       | Normalizes the input image by subtracting the mean value and dividing by the standard deviation [0.485, 0.456, 0.406], [0.229, 0.224, 0.225]. |
-| Conversion to PyTorch tensors             | Converts the image from PIL (Python Imaging Library) format to a PyTorch tensor format.                                |
-| Rearrange image dimensions                | Dimensions change from HxWxC to CxHxW (channels first).                                                              |
+| Conversion to PyTorch Tensors             | Converts images from PIL (Python Imaging Library) format to a PyTorch tensor format.                                |
+| Rearrange Image Dimensions                | Dimensions change from HxWxC to CxHxW (channels first).                                                              |
 
 
 5) **Create PyTorch Image Dataset**: Develop PyTorch datasets for handling image data, incorporating the specified transformations.
