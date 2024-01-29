@@ -259,23 +259,22 @@ These models are renowned for their capabilities in **feature extraction** and *
 | Shuffling of the Data              | True          |
 | Number of Workers for Data Loading | 4             |  
 
-10) **Check CPU and GPU Availability**: Verify the availability of both CPU and GPU resources. Send the model to the appropriate device based on availability.
+7) **Check CPU and GPU Availability**: Verify the availability of both CPU and GPU resources. Send the model to the appropriate device based on availability. For this project, high-performance GPUs, namely A100, V100, and T4, were used, each equipped with 51.0GB of RAM.
   
-11) **Define Optimizer Function**: Set the optimizer function, **Stochastic Gradient Descent (SGD)**, to update model parameters during training.
+8) **Define Optimizer Function**: In this project a **Stochastic Gradient Descent (SGD)**, is used to update model parameters. The purpose of the optimizer function is to iteratively update the model's parameters in a way that minimizes the loss function. 
 
 | Hyperparameter       | Value    |
 |----------------------|----------|
 | Momentum             | 0.1      |
 | Learning Rate        | 1e-4     |
   
-9) **Define Loss Function**: Set loss function  **Categorical Cross Entropy (CCE)** to quantify the difference between predicted and actual values.
+9) **Define Loss Function**: In this project **Categorical Cross Entropy (CCE)** loss function is used to quantify the difference between predicted and actual values. It Calculates the average cross-entropy loss between the predicted and true class labels. It is commonly used for multi-class classification problems.
 
-10) **Train the model**: Using all previously defined configurations such as initial parameters, image transformation, image datasets, data loaders, specified GPUs, optimizer function,  and loss function.
+10) **Train the model**: The model training involves executing all previously specified configurations, including initial parameters, image transformation, image datasets, data loaders, designated GPUs, optimizer function, and loss function.
 
 11) **Save the Model**: Save the trained model for future use or deployment.
    
 12) **Evaluate the Model**: Assess the model's performance using accuracy metrics to measure its effectiveness on the validation dataset.
-
 
 ## Models and their accuracy in classifying daytime satellite images into predefined nightlight categories or labels
 
