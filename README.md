@@ -200,6 +200,11 @@ For a detailed preparation of training and validation datasets, go through [Prep
 
 This project uses a novel **deep-learning** approach through a **transfer learning** method to predict consumption. Transfer learning is a technique that involves using a **pre-trained model** as a starting point for a new task. The pre-trained model has already learned to recognize many different features and can be used as a starting point for training a new model on a related task. It involves leveraging knowledge gained from one task to be repurposed for a different but related task. In this particular case, we are using nighttime light as a proxy for socioeconomic indicators. 
 
+**pre-trained model**
+- It reduces computation costs
+- It reduce carbon footprint
+- It allows to use state-of-the-art models without having to train one from scratch
+
 Our objectives are:
 
  1) Predict the **probability class** of a given **satellite image** and assign the appropriate nightlight bin category
