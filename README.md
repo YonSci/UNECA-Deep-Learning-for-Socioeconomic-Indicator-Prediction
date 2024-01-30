@@ -207,9 +207,9 @@ This project uses a novel **deep-learning** approach through a **transfer learni
 
 Our objectives are:
 
- 1) Predict the **probability class** of a given **satellite image** and assign the appropriate nightlight bin category
- 2) Simultaneously learn and **extract features** that are useful for consumption prediction 
-
+ 1) Predict and assign the **nightlight bin category (probability class)** of the satellite images (image classification using transfer learning).
+ 2) Simultaneously learn and **extract features** that are useful for consumption prediction (feature vector extraction).
+    
 The training process involves a series of steps using a **Deep Convolutional Neural Network** namely variants of [Virtual Geometry Group (VGG)](https://pytorch.org/vision/main/models/vgg.html) models such as **VGG-11**, **VGG-16**, and **VGG-19** as a Transfer Learning framework. 
 
 #### General Architecture of VGG Model 
