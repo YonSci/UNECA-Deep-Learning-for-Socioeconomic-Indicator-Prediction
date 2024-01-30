@@ -213,13 +213,12 @@ Our objectives are:
  1) Predict and assign the **nightlight bin category (probability class)** of the satellite images (image classification using transfer learning).
  2) Simultaneously learn and **extract features** that are useful for consumption prediction (feature vector extraction).
     
-The training process involves a series of steps using a **Deep Convolutional Neural Network** namely variants of [Virtual Geometry Group (VGG)](https://pytorch.org/vision/main/models/vgg.html) models such as **VGG-11**, **VGG-16**, and **VGG-19** as a Transfer Learning framework. 
+The training process involves a series of steps using a **Deep Convolutional Neural Network** namely variants of [Virtual Geometry Group (VGG)](https://pytorch.org/vision/main/models/vgg.html) models such as **VGG-11**, **VGG-16**, and **VGG-19** as a Transfer Learning framework.
 
 #### General Architecture of VGG Model 
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/vgg_model.png)   
 
-These models are renowned for their capabilities in **feature extraction** and **classification**. These models have been widely used in various applications, including **image classification**, **object recognition**, and **image segmentation**. These models were initially trained on the [ImageNet](https://image-net.org/update-mar-11-2021.php) dataset that contains over **1.2 million** images distributed across **1,000** classes. 
-
+These models are renowned for their capabilities in **feature extraction** and **classification**. These models have been widely used in various applications, including **image classification**, **object recognition**, and **image segmentation**. These models were initially trained on the [ImageNet](https://image-net.org/update-mar-11-2021.php) dataset that contains over **1.2 million** images distributed across **1,000** classes. In the default configuration, the final network can classify images into 1000 object categories.
 
 | Model      | Convolutional Layers | Fully Connected Layers | Parameters (approx.) | Pooling Layers  | Input Size | Activation Function | Pre-training   | Kernel Size | Stride | Padding |
 |------------|----------------------|------------------------|----------------------|-----------------|------------|---------------------|----------------|------------|---------|---------|
