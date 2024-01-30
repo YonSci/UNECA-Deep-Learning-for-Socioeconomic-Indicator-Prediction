@@ -239,8 +239,8 @@ These models are renowned for their capabilities in **feature extraction** and *
 
 | Parameter               | Value                         |
 |-------------------------|-------------------------------|
-| Model names             | vgg11_bn, vgg16_bn, vgg19_bn |
-| Image classes           | 3  (low, medium, high)      |
+| Model names             | vgg11_bn, vgg16_bn, vgg19_bn  |
+| Image classes           | 3  (low, medium, high)        |
 | Batch size              | 8                             |
 | Number of epochs        | 30                            |
 | Feature extracting flag | True                          |               
@@ -292,9 +292,11 @@ These models are renowned for their capabilities in **feature extraction** and *
 
 | Model    | Train Loss | Valid Loss | Accuracy |
 |----------|------------|------------|----------|
-| VGG11     | 0.6014     | 0.5321     | 0.7718   |
-| VGG16     | 0.5744     | 0.5284     | 0.7705   |
-| VGG19     | 0.5805     | 0.5175     | 0.7849   |
+| VGG11     | 0.6014     | 0.5321    | 0.7718   |
+| VGG16     | 0.5744     | 0.5284    | 0.7705   |
+| VGG19     | 0.5805     | 0.5175    | 0.7849   |
+
+The above results have indicated a good performance of the trained model in terms of correctly identifying each satellite image to its respective nightlight bin category/classes.
 
 ### Learning Curves
 Learning curves represent the graphical depiction of a model's learning performance as a function of time. Widely employed as a diagnostic tool in machine learning, these curves are particularly useful for algorithms that progressively learn from a training dataset. 
