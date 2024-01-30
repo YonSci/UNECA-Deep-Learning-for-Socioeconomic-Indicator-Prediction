@@ -296,7 +296,7 @@ These models are renowned for their capabilities in **feature extraction** and *
 | VGG16     | 0.5744     | 0.5284    | 0.7705   |
 | VGG19     | 0.5805     | 0.5175    | 0.7849   |
 
-The above results have indicated a good performance of the trained model in terms of correctly identifying each satellite image to its respective nightlight bin category/classes.
+The above results have indicated a good performance of the trained model in terms of correctly identifying each satellite image to its respective nightlight bin category/classes. Overall, the VGG models have been successfully trained using transfer learning to classify the satellite images to their respective nightlight bin classes. 
 
 ### Learning Curves
 Learning curves represent the graphical depiction of a model's learning performance as a function of time. Widely employed as a diagnostic tool in machine learning, these curves are particularly useful for algorithms that progressively learn from a training dataset. 
