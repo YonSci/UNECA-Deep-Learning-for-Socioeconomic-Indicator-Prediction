@@ -202,10 +202,11 @@ This project uses a novel **deep-learning** approach through a **transfer learni
 
 Using pre-trained models:
 
-- It reduces computation costs and time
-- It uses less data set
-- It reduces carbon footprint
-- It allows to use of state-of-the-art models without having to train one from scratch
+- It reduces computation costs
+- It reduces computation time (high accuracy with few iterations)
+- It requires less amount dataset(less data)
+- It reduces carbon footprint (low environmental costs)
+- It avoids training ML models from scratch
 
 Our objectives are:
 
