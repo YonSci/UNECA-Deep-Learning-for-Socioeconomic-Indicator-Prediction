@@ -218,7 +218,8 @@ The training process involves a series of steps using a **Deep Convolutional Neu
 #### General Architecture of VGG Model 
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/vgg_model.png)   
 
-These models are renowned for their capabilities in **feature extraction** and **classification**. These models have been widely used in various applications, including **image classification**, **object recognition**, and **image segmentation**. These models were initially trained on the [ImageNet](https://image-net.org/update-mar-11-2021.php) dataset that contains over **1.2 million** images distributed across **1,000** classes. In the default configuration, the final network can classify images into 1000 object categories.
+These models are renowned for their capabilities in **feature extraction** and **classification**. These models have been widely used in various applications, including **image classification**, **object recognition**, and **image segmentation**. These models were initially trained on the [ImageNet](https://image-net.org/update-mar-11-2021.php) dataset that contains over **1.2 million** images distributed across **1,000** classes. In the default configuration, the final network can classify images into 1000 object categories. The VGG architecture was introduced by Simonyan and Zisserman in 2014 from Oxford University, **Very Deep Convolutional Networks for Large Scale Image Recognition.** This model achieved a 92.7% top-5 test accuracy using the ImageNet dataset.
+
 
 | Model      | Convolutional Layers | Fully Connected Layers | Parameters (approx.) | Pooling Layers  | Input Size | Activation Function | Pre-training   | Kernel Size | Stride | Padding |
 |------------|----------------------|------------------------|----------------------|-----------------|------------|---------------------|----------------|------------|---------|---------|
