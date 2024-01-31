@@ -230,8 +230,7 @@ These models are renowned for their capabilities in **feature extraction** and *
 | VGG-19     | 16                   | 3                      | 144 million          | Max Pooling     | 224x224x3  | ReLU                | ImageNet       | 3 X 3      |   1     |   1     |
 
 #### Steps:
- ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/Train_image.png)   
-
+ ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/Train_image1.png)   
 
 1) **Locate Image Data Directory**: Identify the directory containing image data (`data_dir`) previously created for the task.
   
