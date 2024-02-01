@@ -218,7 +218,7 @@ Our objectives are:
 The training process involves a series of steps using a **Deep Convolutional Neural Network** namely variants of [Virtual Geometry Group (VGG)](https://pytorch.org/vision/main/models/vgg.html) models such as **VGG-11**, **VGG-16**, and **VGG-19** as a Transfer Learning framework.
 
 #### General Architecture of VGG Model 
-![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/vgg_model.png)   
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/vgg1.png)   
 
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/vgg.png)   
 
