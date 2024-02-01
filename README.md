@@ -328,6 +328,8 @@ For a detailed implementation of feature extraction, go through [Feature_extract
 
 ## Visualizing Feature Maps (Activation Maps)  
 
+Visualizing feature maps, also known as activation maps, provides valuable insights into how neural networks interpret and understand input data. Feature maps are representations of learned patterns and structures within the input data at different levels of abstraction.
+
 ### Sample feature maps from low nightlight bin
 
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/fm_low.png)  
