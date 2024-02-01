@@ -320,6 +320,8 @@ The feature vectors provide a lot of information about evidence of economic acti
 
 For feature vector extraction each image passes through the pre-trained VGG model and the final dense layer is used to extract the feature vector from each image in the clustur with the output feature vector size of 4096.  Finally, the feature vectors of all images in the cluster are averaged to obtain a single feature vector per cluster. The cluster feature vector and cluster order files can be found [here](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/tree/main/Model_Output) 
 
+For a detailed implementation of feature extraction, go through []()
+
 #### Steps:
 
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/feature_ext.png)  
