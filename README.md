@@ -353,7 +353,7 @@ The feature vector, computed for each cluster, serves as the input variable, whi
 
  ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/cv_r2.png)   
 
-#### Accuracy Metrics  
+#### Other Accuracy Metrics  
 
 | Metric                        | Predicted consumption |
 |-------------------------------|---------|
