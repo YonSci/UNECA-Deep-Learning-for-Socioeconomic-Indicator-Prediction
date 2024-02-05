@@ -347,19 +347,26 @@ Feature maps are representations of learned patterns and structures within the i
 
 In this project, a Ridge Regression model is employed to forecast consumption levels utilizing the feature vector extracted from the previous step. Ridge regression is a form of a linear regression model with L2 regularization that prevents overfitting. A Ridge Regression model is a supervised learning algorithm, that predicts a target variable based on one or more predictor features.
 
-The feature vector, computed for each cluster, serves as the input variable, while the consumption level for each cluster is used as the output variable. Standardization or scaling is initially applied to both the input and output variables. Subsequently, a randomized cross-validation technique is employed with a 10-fold cross-validation, to predict consumption levels and evaluate model performance using a weighted R-square. The Ridge Regression model yielded a cross-validated mean R-squared value of 0.5. 
+The feature vector, computed for each cluster, serves as the input variable, while the consumption level for each cluster is used as the output variable. Standardization or scaling is initially applied to both the input and output variables. Subsequently, a randomized cross-validation technique is employed with a 10-fold cross-validation, to predict consumption levels and evaluate model performance using a weighted R-square. 
 
-#### Cross-validated mean R-squared 
+#### Steps:
 
- ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/cv_r2.png)   
+![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/ridged_regression.png)
 
-#### Other Accuracy Metrics  
+The ridge regression model has a cross-validated mean R-squared value of 0.5. The R-squared value indicates that the model explains 50% of the variance in the data. The mean absolute error (MAE) of 0.72 suggests that, on average, the model's predictions are off by 0.72 units from the actual values. The root mean squared error (RMSE) of 3.1 indicates that the model's predictions are off by 3.1 units on average.
+
+#### Accuracy Metrics  
 
 | Metric                        | Predicted consumption |
 |-------------------------------|---------|
 | Cross-validated mean R-squared | 0.5    |
 | Mean Absolute Error (MAE)     | 0.72    |
 | Root Mean Squared Error (RMSE)| 3.1     |
+
+
+#### Cross-validated mean R-squared 
+
+ ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/cv_r2.png)   
 
 For a detailed implementation of the Ridge regression model, go through [Predict_consumption_ridge_regression_model.ipynb](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Scripts/Predict_consumption_ridge_regression_model.ipynb)
 
