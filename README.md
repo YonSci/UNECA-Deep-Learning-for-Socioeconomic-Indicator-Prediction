@@ -392,19 +392,19 @@ Finally, the forecasted consumption levels were visually represented on a map.
 
 **Ease of Adoption and Adaptability**: 
 
-- The trained **CNN/VGG models** and **extracted features** enable other organizations or NSOs to make predictions without the necessity to train the model from scratch and avoid the need for downloading and processing satellite imagery.
+- The trained **CNN/VGG models** and **extracted features** can be used by organizations, NSOs, and researchers to make predictions without the necessity to train the model from scratch and avoid the need for downloading and processing satellite imagery.
 
-- Models developed for specific areas can be seamlessly transferred and applied to new regions with similar characteristics, several previous studies indicated acceptable model performance in prediction.   
+- Models developed for specific areas can be seamlessly transferred and applied to new regions with similar characteristics. Several previous studies indicated acceptable model performance in prediction.   
 
 **Enhanced Reporting Capability**: This approach facilitates the generation of comprehensive **quarterly** and **annual reports**, addressing both temporal and spatial **data gaps**. It complements existing official statistical methods, contributing to more detailed socioeconomic reports.
 
-**Decision Support Tools**: The creation of country-specific dashboards allows for spatial and temporal visualization of model predictions. This feature supports evidence-based planning and interventions, providing valuable decision support.
+**Decision Support Tools**: Country-specific dashboards can be built to visualize the spatial and temporal patterns of the model predictions. This feature supports evidence-based planning and interventions, providing valuable decision support for countries and NSOs.
 
 **Exploration of Advanced Algorithms**: Testing advanced deep learning algorithms, including **ResNet**, **RegNet**, **EfficientNet**, **Inception V3**, and **AlexNet**,  etc holds the potential to further improve **prediction accuracy** and **model performance.**
 
 **Hyperparameter Optimization**: Fine-tuning the model through optimization procedures, such as identifying optimal batch sizes and epochs, can enhance the model's overall performance, ensuring optimal model configuration.
 
-**Integration of High-Resolution Images**: In this project, the [Planet's](https://www.planet.com/nonprofit/) high-resolution satellite images are used, incorporating other free open source sources satellite images may improve or provide new insight into socioeconomic landscapes.
+**Integration of High-Resolution Images**: In this project, the [Planet's](https://www.planet.com/nonprofit/) high-resolution satellite images are used, incorporating other free open-source satellite images may improve or provide new insight into socioeconomic landscapes.
 
 ## Scripts 📜
 
