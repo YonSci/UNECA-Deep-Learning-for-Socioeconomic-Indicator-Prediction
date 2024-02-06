@@ -4,6 +4,14 @@
 
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/intro_im.png)   
 
+## Introduction 
+
+This project is dedicated to revolutionizing the way we predict socioeconomic indicators, specifically focusing on consumption expenditure in Malawi using alternative data sources(big data) and open-source frameworks. Although traditional household surveys are vital for decision-making, they suffer from resource-intensive and time-consuming drawbacks. These challenges, coupled with data gaps and reproducibility issues, hinder our ability to effectively monitor UN Sustainable Development Goals. Our project uniquely integrates World Bank LSMS survey Microdata and satellite imagery captured during both nighttime and daytime. By employing advanced machine learning and deep learning techniques, we aim to forecast socioeconomic indicators more accurately.
+
+Our objectives include filling in temporal and spatial data gaps, refining our methodology with open-source tools, and enhancing overall reproducibility. In alignment with UN SDGs, particularly SDG 1 (No Poverty), SDG 2 (Zero Hunger)  providing insights into food consumption and hunger, and SDG 9 (Industry, Innovation, and Infrastructure) by embracing innovation in the field of machine learning to enhance understanding and prediction of socioeconomic indicators. The project aspires to deliver a cost-effective, accurate, and reproducible AI system tailored for monitoring socioeconomic indicators. Our approach goes beyond predicting off-year consumption. 
+
+In this project, we showcased consumption expenditure prediction for Malawi for the year 2016. The new approach accommodates off-year predictions, operates as a near real-time monitoring system, and demonstrates scalability for diverse regions. The proposed project approach extends beyond consumption prediction covering other indicators like poverty levels, wealth distribution, and electricity accessibility.
+
 ## Problem❓
 
 1) The lack of reliable and continuous socioeconomic data in developing countries is a major obstacle to monitoring and evaluating sustainable development goals and making informed policy decisions. Obtaining frequent and reliable national-level statistics through surveys is both costly and labor-intensive, which poses a significant challenge for governmental and non-governmental organizations. 
