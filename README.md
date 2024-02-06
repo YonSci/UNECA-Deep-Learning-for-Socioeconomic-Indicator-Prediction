@@ -511,7 +511,7 @@ Planet Labs PBC. (2023). Planet Application Program Interface: In Space for Life
 
 ## Related Works 
 
-Neal Jean, Marshall Burke, Michael Xie, W. Matt Davis, David Lobell, and Stefano Ermon. 2016. "Combining satellite imagery and machine learning to predict poverty." Science 353, 6301. Combining satellite imagery and machine learning to predict poverty. [GitHub] (https://github.com/nealjean/predicting-poverty)    
+Neal Jean, Marshall Burke, Michael Xie, W. Matt Davis, David Lobell, and Stefano Ermon. 2016. "Combining satellite imagery and machine learning to predict poverty." Science 353, 6301. Combining satellite imagery and machine learning to predict poverty. [GitHub](https://github.com/nealjean/predicting-poverty)    
 
 [Mapping-Poverty-With-Satellite-Images](https://github.com/huydang90/Mapping-Poverty-With-Satellite-Images)
 
