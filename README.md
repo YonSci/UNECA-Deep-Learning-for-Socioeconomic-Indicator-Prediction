@@ -511,13 +511,12 @@ Planet Labs PBC. (2023). Planet Application Program Interface: In Space for Life
 
 ## Related Works 
 
-Jatin Mathur, Predicting Poverty Replication, GitHub: https://github.com/jmather625/predicting-poverty-replication
-
-
 Neal Jean, Marshall Burke, Michael Xie, W. Matt Davis, David Lobell, and Stefano Ermon. 2016. "Combining satellite imagery and machine learning to predict poverty." Science 353, 6301. Combining satellite imagery and machine learning to predict poverty. GitHub: https://github.com/nealjean/predicting-poverty
 
-## Related projects 
+[Mapping-Poverty-With-Satellite-Images](https://github.com/huydang90/Mapping-Poverty-With-Satellite-Images)
 
-Link: https://sustain.stanford.edu/predicting-poverty
+[Jatin Mathur, Predicting Poverty Replication](https://github.com/jmather625/predicting-poverty-replication)
 
-Link: https://www.science.org/content/article/satellite-images-can-map-poverty
+[COMBINING SATELLITE IMAGERY AND MACHINE LEARNING TO PREDICT POVERTY](https://sustain.stanford.edu/predicting-poverty)
+
+[Satellite images can map poverty]https://www.science.org/content/article/satellite-images-can-map-poverty
