@@ -87,7 +87,7 @@ For a detailed implementation procedure, go through: [Survey_Data_Preprocessing_
 
 ![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/Daily_Per_Capita_Consumption_Malawi_Year_2016.png)   
 
-#### Basic summary statistics​ & distributions of consumption per capita per day 
+#### Basic summary statistics​ of consumption per capita per day 
 
 |   Metric   |   Value      |
 |------------|--------------|
@@ -97,9 +97,6 @@ For a detailed implementation procedure, go through: [Survey_Data_Preprocessing_
 | Median     |   1.853950   |
 | Mean       |   2.428631   |
 | STD        |   3.262697   |
-
-![Alt text](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-Indicator-Prediction/blob/main/Images/summry_stat1.png)   
-
 
 ### 2) Nightlight satellite imagery acquisition, and processing
 
