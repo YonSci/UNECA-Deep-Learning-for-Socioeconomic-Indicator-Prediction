@@ -502,7 +502,7 @@ On the [issues](https://github.com/YonSci/UNECA-Deep-Learning-for-Socioeconomic-
  
 ## Acknowledgments 
 
-1) This research project  has been supported by **RCTP project**.
+1) This research project  has been supported by the **Regular Program of Technical Cooperation (RPTC)**.
   
 2) Special thanks to Jatin Mathur for sharing the create_space, add_nightlights, generate_download_locations, drop_zeros functions, and other code snippets on GitHub. We have integrated certain code snippets, tailoring them to suit the specific requirements of our project.
 
